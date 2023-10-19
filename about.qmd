@@ -2,4 +2,12 @@
 title: "About"
 ---
 
-About this site
+## Basic Info
+
+Thomas Spurlock is a *really cool* and awesome Classicist
+
+## Aeneid 1.1
+
+Arma virumque cano
+
+##
