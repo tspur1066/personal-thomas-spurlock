@@ -11,14 +11,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Thomas Spurlock is a really cool and awesome Classicist"
+    "text": "Thomas Spurlock is a really cool and awesome Medievalist"
   },
   {
     "objectID": "about.html#basic-info",
     "href": "about.html#basic-info",
     "title": "About",
     "section": "",
-    "text": "Thomas Spurlock is a really cool and awesome Classicist"
+    "text": "Thomas Spurlock is a really cool and awesome Medievalist"
   },
   {
     "objectID": "about.html#aeneid-1.1",
@@ -26,5 +26,19 @@
     "title": "About",
     "section": "Aeneid 1.1",
     "text": "Aeneid 1.1\nArma virumque cano"
+  },
+  {
+    "objectID": "about.html#virgils-aeneid-1.1",
+    "href": "about.html#virgils-aeneid-1.1",
+    "title": "About",
+    "section": "Virgil’s Aeneid 1.1",
+    "text": "Virgil’s Aeneid 1.1\nArma virumque cano"
+  },
+  {
+    "objectID": "about.html#caesars-de-bello-gallico-1.1",
+    "href": "about.html#caesars-de-bello-gallico-1.1",
+    "title": "About",
+    "section": "Caesar’s De Bello Gallico 1.1",
+    "text": "Caesar’s De Bello Gallico 1.1\nGallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur.\n“All Gaul is divided into three parts, of which the Belgae inhabit one, another the Aquitani, the third those who in the language of themselves are called the Celts, in ours the Gauls.”"
   }
 ]
