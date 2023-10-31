@@ -3,13 +3,17 @@ project:
   output-dir: docs
 
 website:
-  title: "warmup-thomas-spurlock"
+  title: "Thomas' Cool Little Website"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
         text: About
+      - href: article_01.qmd
+        text: Article 1 - Looping a Triangle (Ch. 2)
+      - href: article_02.qmd
+        text: Article 2 - Recursion (Ch.3)
 
 format:
   html:

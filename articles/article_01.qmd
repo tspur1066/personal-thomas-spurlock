@@ -1,0 +1,7 @@
+---
+title: Looping a Triangle in Javascript
+---
+
+## The Problem
+
+This problem is taken from *Eloquent Javascript*. You can find it here.
