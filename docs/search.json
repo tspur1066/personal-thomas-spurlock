@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "warmup-thomas-spurlock",
+    "title": "Thomas’ Cool Little Website",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
@@ -47,5 +47,33 @@
     "title": "About",
     "section": "The Song of Roland 1.1-3",
     "text": "The Song of Roland 1.1-3\nCarles li reis, nostre emperere magnes set anz tuz pleins ad estet en Espaigne: Tresqu’en la mer cunquist la tere altaigne."
+  },
+  {
+    "objectID": "articles/article_02.html",
+    "href": "articles/article_02.html",
+    "title": "Determining Evenness via Recursion",
+    "section": "",
+    "text": "This problem is ALSO taken from Eloquent Javascript. If curious, it lives here, and it is usually welcoming to visitors."
+  },
+  {
+    "objectID": "articles/article_02.html#the-problem",
+    "href": "articles/article_02.html#the-problem",
+    "title": "Determining Evenness via Recursion",
+    "section": "",
+    "text": "This problem is ALSO taken from Eloquent Javascript. If curious, it lives here, and it is usually welcoming to visitors."
+  },
+  {
+    "objectID": "articles/article_01.html",
+    "href": "articles/article_01.html",
+    "title": "Looping a Triangle in Javascript",
+    "section": "",
+    "text": "This problem is taken from Eloquent Javascript. You can find it here."
+  },
+  {
+    "objectID": "articles/article_01.html#the-problem",
+    "href": "articles/article_01.html#the-problem",
+    "title": "Looping a Triangle in Javascript",
+    "section": "",
+    "text": "This problem is taken from Eloquent Javascript. You can find it here."
   }
 ]

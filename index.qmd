@@ -1,5 +1,5 @@
 ---
-title: "warmup-thomas-spurlock"
+title: "Thomas' Cool Little Website"
 ---
 
 This is a Quarto website.
