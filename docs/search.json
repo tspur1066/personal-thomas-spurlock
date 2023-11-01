@@ -53,14 +53,14 @@
     "href": "articles/article_02.html",
     "title": "Determining Evenness via Recursion",
     "section": "",
-    "text": "This problem is ALSO taken from Eloquent Javascript. If curious, it lives here, and it is usually welcoming to visitors."
+    "text": "This problem is ALSO taken from Eloquent Javascript. If curious, it lives here, and it is usually welcoming to visitors.\n“We’ve seen that % (the remainder operator) can be used to test whether a number is even or odd by using % 2 to see whether it’s divisible by two. Here’s another way to define whether a positive whole number is even or odd:\n-Zero is even.\n-One is odd.\n-For any other number N, its evenness is the same as N - 2.\nDefine a recursive function isEven corresponding to this description. The function should accept a single parameter (a positive, whole number) and return a Boolean.\nTest it on 50 and 75. See how it behaves on -1. Why? Can you think of a way to fix this?”\nWhat Haverbeke is asking the strapping young reader to do here is to create a function that, using recursion, determines whether a number is even or not. It must return either TRUE or FALSE, and it must determine evenness by using the N - 2 technique: if a whole number, when subtracted by 2 enough times, eventually equals 0, it is even, or eventually equals 1, it is odd."
   },
   {
     "objectID": "articles/article_02.html#the-problem",
     "href": "articles/article_02.html#the-problem",
     "title": "Determining Evenness via Recursion",
     "section": "",
-    "text": "This problem is ALSO taken from Eloquent Javascript. If curious, it lives here, and it is usually welcoming to visitors."
+    "text": "This problem is ALSO taken from Eloquent Javascript. If curious, it lives here, and it is usually welcoming to visitors.\n“We’ve seen that % (the remainder operator) can be used to test whether a number is even or odd by using % 2 to see whether it’s divisible by two. Here’s another way to define whether a positive whole number is even or odd:\n-Zero is even.\n-One is odd.\n-For any other number N, its evenness is the same as N - 2.\nDefine a recursive function isEven corresponding to this description. The function should accept a single parameter (a positive, whole number) and return a Boolean.\nTest it on 50 and 75. See how it behaves on -1. Why? Can you think of a way to fix this?”\nWhat Haverbeke is asking the strapping young reader to do here is to create a function that, using recursion, determines whether a number is even or not. It must return either TRUE or FALSE, and it must determine evenness by using the N - 2 technique: if a whole number, when subtracted by 2 enough times, eventually equals 0, it is even, or eventually equals 1, it is odd."
   },
   {
     "objectID": "articles/article_01.html",
@@ -75,5 +75,12 @@
     "title": "Looping a Triangle in Javascript",
     "section": "",
     "text": "This problem is taken from Eloquent Javascript. You can find it here ."
+  },
+  {
+    "objectID": "articles/article_02.html#the-solution",
+    "href": "articles/article_02.html#the-solution",
+    "title": "Determining Evenness via Recursion",
+    "section": "The Solution",
+    "text": "The Solution\nFirst, we define the function isEven:\nconst isEven = function(x) {\n    if (x &lt; 0) {\n        return console.log(\"!!!!x must be a positive number!!!!\");\n    }\n    if (x == 1) {\n        return console.log(false);\n    } else if (x == 0) {\n        return console.log(true);\n    } else return isEven(x - 2);\n}\n\nisEven(50);\nisEven(75);\nAs requested by the problem, let’s test it on 50 and 75:\nisEven is a function accepting a single positive number, x, that returns either “true” if the number is even, or “false” if the number is odd. But let’s break it down:\nWe first set up a “negative gate”, as I’ll call it. Essentially, the function tests"
   }
 ]

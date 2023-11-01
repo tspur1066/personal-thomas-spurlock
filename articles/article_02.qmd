@@ -1,5 +1,5 @@
 ---
-title: Determining Evenness via Recursion
+title: "Determining Evenness via Recursion"
 ---
 
 ## The Problem
@@ -24,7 +24,7 @@ What Haverbeke is asking the strapping young reader to do here is to create a fu
 
 First, we define the function isEven:
 
-```{js}
+```.js
 const isEven = function(x) {
     if (x < 0) {
         return console.log("!!!!x must be a positive number!!!!");
@@ -35,18 +35,14 @@ const isEven = function(x) {
         return console.log(true);
     } else return isEven(x - 2);
 }
-
-isEven(50);
-isEven(75);
 ```
 
 As requested by the problem, let's test it on 50 and 75:
 
-```{js}
+```.js
 
 isEven(50);
 isEven(75);
-
 ```
 
 isEven is a function accepting a single positive number, x, that returns either "true" if the number is even, or "false" if the number is odd. But let's break it down:

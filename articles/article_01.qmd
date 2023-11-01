@@ -1,5 +1,5 @@
 ---
-title: Looping a Triangle in Javascript
+title: "Looping a Triangle in Javascript"
 ---
 
 ## The Problem
