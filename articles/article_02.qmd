@@ -4,4 +4,23 @@ title: Determining Evenness via Recursion
 
 ## The Problem
 
-This problem is ALSO taken from *Eloquent Javascript*. If curious, it lives [here](https://eloquentjavascript.net/03_functions.html#i_jxl1p970Fy), and it is usually welcoming to visitors.
+This problem is ALSO taken from *Eloquent Javascript*. If curious, it lives [here](https://eloquentjavascript.net/03_functions.html#i_jxl1p970Fy){target="_blank"}, and it is usually welcoming to visitors.
+
+"We’ve seen that % (the remainder operator) can be used to test whether a number is even or odd by using % 2 to see whether it’s divisible by two. Here’s another way to define whether a positive whole number is even or odd:
+
+-Zero is even.
+
+-One is odd.
+
+-For any other number N, its evenness is the same as N - 2.
+
+Define a recursive function isEven corresponding to this description. The function should accept a single parameter (a positive, whole number) and return a Boolean.
+
+Test it on 50 and 75. See how it behaves on -1. Why? Can you think of a way to fix this?"
+
+What Haverbeke is asking the strapping young reader to do here is to create a function that, using recursion, determines whether a number is even or not. It must return either TRUE or FALSE, and it must determine evenness by using the N - 2 technique: if a whole number, when subtracted by 2 enough times, eventually equals 0, it is even, or eventually equals 1, it is odd. 
+
+## The Solution
+
+
+
