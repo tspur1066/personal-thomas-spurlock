@@ -22,5 +22,33 @@ What Haverbeke is asking the strapping young reader to do here is to create a fu
 
 ## The Solution
 
+First, we define the function isEven:
 
+```{js}
+const isEven = function(x) {
+    if (x < 0) {
+        return console.log("!!!!x must be a positive number!!!!");
+    }
+    if (x == 1) {
+        return console.log(false);
+    } else if (x == 0) {
+        return console.log(true);
+    } else return isEven(x - 2);
+}
 
+isEven(50);
+isEven(75);
+```
+
+As requested by the problem, let's test it on 50 and 75:
+
+```{js}
+
+isEven(50);
+isEven(75);
+
+```
+
+isEven is a function accepting a single positive number, x, that returns either "true" if the number is even, or "false" if the number is odd. But let's break it down:
+
+We first set up a "negative gate", as I'll call it. Essentially, the function tests
