@@ -37,14 +37,38 @@ const isEven = function(x) {
 }
 ```
 
-As requested by the problem, let's test it on 50 and 75:
-
-```.js
-
-isEven(50);
-isEven(75);
-```
 
 isEven is a function accepting a single positive number, x, that returns either "true" if the number is even, or "false" if the number is odd. But let's break it down:
 
-We first set up a "negative gate", as I'll call it. Essentially, the function tests
+We first set up a "negative gate", as I'll call it:
+
+
+```.js
+
+if (x < 0) {
+    return console.log("!!!!x must be a positive number!!!!");
+}
+
+```
+
+
+ The function first tests whether the number x is a negative number. If so, it prints an angry error message to the console.
+
+ Next, we need to define a "base cases", or in other words, the criteria needed for the funtion to return a desired outcome. For this function, we need to define two base cases, one for if x = 1 (that is, it's odd), and another for x = 0 (it is even).
+
+
+ ```.js
+
+if (x == 1) {
+        return console.log(false);
+    } else if (x == 0) {
+        return console.log(true);
+
+ ```
+
+If x ends up being equal to 1, the function prints "false" to the console, and if x is equal to 0, "true" is printed to the console.
+
+Now we get to the fun part: recursion! The 
+
+
+
