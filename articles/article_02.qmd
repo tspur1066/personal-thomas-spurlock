@@ -20,7 +20,7 @@ Test it on 50 and 75. See how it behaves on -1. Why? Can you think of a way to f
 
 What Haverbeke is asking the strapping young reader to do here is to create a function that, using recursion, determines whether a number is even or not. It must return either TRUE or FALSE, and it must determine evenness by using the N - 2 technique: if a whole number, when subtracted by 2 enough times, eventually equals 0, it is even, or eventually equals 1, it is odd. 
 
-## The Solution
+## The Solution to Part 1
 
 First, we define the function isEven:
 
@@ -66,9 +66,75 @@ if (x == 1) {
 
  ```
 
+
 If x ends up being equal to 1, the function prints "false" to the console, and if x is equal to 0, "true" is printed to the console.
 
-Now we get to the fun part: recursion! The 
+Now we get to the fun part: recursion! The main *function* of the isEven function is to use N (or x) - 2 to find out whether, if 2 is subtracted enough times, N - 2 eventually equals 1 or 0. That looks like this:
 
+
+```.js
+
+if (x == 1) {
+        return console.log(false);
+    } else if (x == 0) {
+        return console.log(true);
+    } else return isEven(x - 2);
+}
+
+```
+
+
+If x manages to make it by both base cases, the function will rerun isEven using x -2. So, for example, if we make x = 2, it would first pass by both base cases, then rerun isEven where x = 0, instead. Since x = 0 is one of the base cases, the console would then print "true".
+
+## The Solution to Part 2
+
+However, we aren't done yet. The problem also asks us to figure out why inputting a negative value for x does not work. The reason for this is because negative numbers are less than both 0 and 1, so the N - 2 method will not work. We could either add an angry error message if x is a negative number, or we can adjust isEven to account for negative numbers. This is negisEven. Say hello!
+
+
+```.js
+
+const negisEven = function(x) {
+    if (x < 0) {
+        let neg_x = -x;
+        if (neg_x == 1) {
+            return console.log(false);
+        } else if (neg_x == 0) {
+            return console.log(true);
+        }
+            else return negisEven(neg_x - 2)
+    }
+    if (x == 1) {
+        return console.log(false);
+    } else if (x == 0) {
+        return console.log(true);
+    } else return negisEven(x - 2);
+}
+
+```
+
+
+This function is identical to isEven except in how it handles negative numbers. For our "negative gate", rather than simply telling you to buzz off, the following takes place:
+
+```.js
+
+if (x < 0) {
+        let neg_x = -x;
+        if (neg_x == 1) {
+            return console.log(false);
+        } else if (neg_x == 0) {
+            return console.log(true);
+        }
+            else return negisEven(neg_x - 2)
+    }
+
+```
+
+
+neg_x is equal to the inverse of x, i.e., -x. The function then uses the same testing as isEven: if neg_x is equal to 0, "true" is printed to the console, and if neg_x is equal to 1, then "false" is printed to the console. And if neg_x is equal to neither of those, negisEven is run again, where x is set equal to neg_x. Functionality is identical to isEven after that.
+
+
+## The Javascript File
+
+In order to see this file in action, follow [this link](){target="_blank"} to see examples of this function's use.
 
 

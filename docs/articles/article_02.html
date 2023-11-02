@@ -199,7 +199,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#the-problem" id="toc-the-problem" class="nav-link active" data-scroll-target="#the-problem">The Problem</a></li>
-  <li><a href="#the-solution" id="toc-the-solution" class="nav-link" data-scroll-target="#the-solution">The Solution</a></li>
+  <li><a href="#the-solution-to-part-1" id="toc-the-solution-to-part-1" class="nav-link" data-scroll-target="#the-solution-to-part-1">The Solution to Part 1</a></li>
+  <li><a href="#the-solution-to-part-2" id="toc-the-solution-to-part-2" class="nav-link" data-scroll-target="#the-solution-to-part-2">The Solution to Part 2</a></li>
+  <li><a href="#the-javascript-file" id="toc-the-javascript-file" class="nav-link" data-scroll-target="#the-javascript-file">The Javascript File</a></li>
   </ul>
 </nav>
     </div>
@@ -234,8 +236,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Test it on 50 and 75. See how it behaves on -1. Why? Can you think of a way to fix this?”</p>
 <p>What Haverbeke is asking the strapping young reader to do here is to create a function that, using recursion, determines whether a number is even or not. It must return either TRUE or FALSE, and it must determine evenness by using the N - 2 technique: if a whole number, when subtracted by 2 enough times, eventually equals 0, it is even, or eventually equals 1, it is odd.</p>
 </section>
-<section id="the-solution" class="level2">
-<h2 class="anchored" data-anchor-id="the-solution">The Solution</h2>
+<section id="the-solution-to-part-1" class="level2">
+<h2 class="anchored" data-anchor-id="the-solution-to-part-1">The Solution to Part 1</h2>
 <p>First, we define the function isEven:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode .js code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> isEven <span class="op">=</span> <span class="kw">function</span>(x) {</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (x <span class="op">&lt;</span> <span class="dv">0</span>) {</span>
@@ -261,7 +263,52 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>   } <span class="cf">else</span> <span class="cf">if</span> (x <span class="op">==</span> <span class="dv">0</span>) {</span>
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>       <span class="cf">return</span> <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="kw">true</span>)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>If x ends up being equal to 1, the function prints “false” to the console, and if x is equal to 0, “true” is printed to the console.</p>
-<p>Now we get to the fun part: recursion! The</p>
+<p>Now we get to the fun part: recursion! The main <em>function</em> of the isEven function is to use N (or x) - 2 to find out whether, if 2 is subtracted enough times, N - 2 eventually equals 1 or 0. That looks like this:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode .js code-with-copy"><code class="sourceCode javascript"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (x <span class="op">==</span> <span class="dv">1</span>) {</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="kw">false</span>)<span class="op">;</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> <span class="cf">if</span> (x <span class="op">==</span> <span class="dv">0</span>) {</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="kw">true</span>)<span class="op">;</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> <span class="cf">return</span> <span class="fu">isEven</span>(x <span class="op">-</span> <span class="dv">2</span>)<span class="op">;</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>If x manages to make it by both base cases, the function will rerun isEven using x -2. So, for example, if we make x = 2, it would first pass by both base cases, then rerun isEven where x = 0, instead. Since x = 0 is one of the base cases, the console would then print “true”.</p>
+</section>
+<section id="the-solution-to-part-2" class="level2">
+<h2 class="anchored" data-anchor-id="the-solution-to-part-2">The Solution to Part 2</h2>
+<p>However, we aren’t done yet. The problem also asks us to figure out why inputting a negative value for x does not work. The reason for this is because negative numbers are less than both 0 and 1, so the N - 2 method will not work. We could either add an angry error message if x is a negative number, or we can adjust isEven to account for negative numbers. This is negisEven. Say hello!</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode .js code-with-copy"><code class="sourceCode javascript"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> negisEven <span class="op">=</span> <span class="kw">function</span>(x) {</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (x <span class="op">&lt;</span> <span class="dv">0</span>) {</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>        <span class="kw">let</span> neg_x <span class="op">=</span> <span class="op">-</span>x<span class="op">;</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> (neg_x <span class="op">==</span> <span class="dv">1</span>) {</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="kw">false</span>)<span class="op">;</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>        } <span class="cf">else</span> <span class="cf">if</span> (neg_x <span class="op">==</span> <span class="dv">0</span>) {</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="kw">true</span>)<span class="op">;</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span> <span class="cf">return</span> <span class="fu">negisEven</span>(neg_x <span class="op">-</span> <span class="dv">2</span>)</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (x <span class="op">==</span> <span class="dv">1</span>) {</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="kw">false</span>)<span class="op">;</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> <span class="cf">if</span> (x <span class="op">==</span> <span class="dv">0</span>) {</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="kw">true</span>)<span class="op">;</span></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> <span class="cf">return</span> <span class="fu">negisEven</span>(x <span class="op">-</span> <span class="dv">2</span>)<span class="op">;</span></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This function is identical to isEven except in how it handles negative numbers. For our “negative gate”, rather than simply telling you to buzz off, the following takes place:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode .js code-with-copy"><code class="sourceCode javascript"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (x <span class="op">&lt;</span> <span class="dv">0</span>) {</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>        <span class="kw">let</span> neg_x <span class="op">=</span> <span class="op">-</span>x<span class="op">;</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> (neg_x <span class="op">==</span> <span class="dv">1</span>) {</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="kw">false</span>)<span class="op">;</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>        } <span class="cf">else</span> <span class="cf">if</span> (neg_x <span class="op">==</span> <span class="dv">0</span>) {</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="kw">true</span>)<span class="op">;</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span> <span class="cf">return</span> <span class="fu">negisEven</span>(neg_x <span class="op">-</span> <span class="dv">2</span>)</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    }</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>neg_x is equal to the inverse of x, i.e., -x. The function then uses the same testing as isEven: if neg_x is equal to 0, “true” is printed to the console, and if neg_x is equal to 1, then “false” is printed to the console. And if neg_x is equal to neither of those, negisEven is run again, where x is set equal to neg_x. Functionality is identical to isEven after that.</p>
+</section>
+<section id="the-javascript-file" class="level2">
+<h2 class="anchored" data-anchor-id="the-javascript-file">The Javascript File</h2>
+<p>In order to see this file in action, follow <a href="" target="_blank">this link</a> to see examples of this function’s use.</p>
 
 
 </section>
