@@ -6,5 +6,16 @@ This problem is taken from *Eloquent Javascript*. You can find it [here](https:/
 
 ## The Problem
 
+"Write a loop that makes seven calls to console.log to output the following triangle:
+
+
+#
+##
+###
+####
+#####
+######
+#######
+
 
 
