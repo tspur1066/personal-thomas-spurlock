@@ -2,7 +2,9 @@
 title: "Looping a Triangle in Javascript"
 ---
 
+This problem is taken from *Eloquent Javascript*. You can find it [here](https://eloquentjavascript.net/02_program_structure.html#i_umoXp9u0e7){target="_blank"}. Let's see what it says:
+
 ## The Problem
 
-This problem is taken from *Eloquent Javascript*. You can find it [here](https://eloquentjavascript.net/02_program_structure.html#i_umoXp9u0e7){target="_blank"} .
+
 

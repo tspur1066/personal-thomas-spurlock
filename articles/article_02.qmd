@@ -2,9 +2,9 @@
 title: "Determining Evenness via Recursion"
 ---
 
-## The Problem
+This problem is ALSO taken from *Eloquent Javascript*. If curious, it lives [here](https://eloquentjavascript.net/03_functions.html#i_jxl1p970Fy){target="_blank"}, and it is usually welcoming to visitors. Here's what it says:
 
-This problem is ALSO taken from *Eloquent Javascript*. If curious, it lives [here](https://eloquentjavascript.net/03_functions.html#i_jxl1p970Fy){target="_blank"}, and it is usually welcoming to visitors.
+## The Problem
 
 "We’ve seen that % (the remainder operator) can be used to test whether a number is even or odd by using % 2 to see whether it’s divisible by two. Here’s another way to define whether a positive whole number is even or odd:
 
@@ -135,6 +135,6 @@ neg_x is equal to the inverse of x, i.e., -x. The function then uses the same te
 
 ## The Javascript File
 
-In order to see this file in action, follow [this link](){target="_blank"} to see examples of this function's use.
+In order to see this file in action, follow [this link](/js/recursion.js){target="_blank"} to see examples of this function's use.
 
 
