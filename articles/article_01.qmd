@@ -8,7 +8,7 @@ This problem is taken from *Eloquent Javascript*. You can find it [here](https:/
 
 "Write a loop that makes seven calls to console.log to output the following triangle:
 
-
+```.js
 #
 ##
 ###
@@ -16,6 +16,27 @@ This problem is taken from *Eloquent Javascript*. You can find it [here](https:/
 #####
 ######
 #######
+```
 
+(but without the apostrophes)."
+
+## The Solution
+
+Here is the full code for the triangle:
+
+```.js
+
+let symbol = "#";
+for (let length = symbol.length; symbol.length <= 7; symbol += "#") {
+    console.log(symbol)
+}
+
+```
+
+The idea behind this solution is utilizing a simple for-loop. "symbol" is set equal to #, as that is the first line. From there, while the iterable "i" is less than 7, the length of the last line of the triangle, another # is added onto "symbol", and each addition is printed to the console. Thus, if we were to run the code, each iteration of "symbol" would be printed to the console.
+
+## The Javascript File
+
+The raw code can be found [here](/js/looping.js){target="_blank"}.
 
 

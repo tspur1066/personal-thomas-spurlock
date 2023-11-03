@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Thomas’ Cool Little Website",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "This is a website that I’m making for an assignment for CSC 324 at Georgetown College. Hope this is at least mildly entertaining and, God willing, cool.\nIf you’re in the mood, you can also check out this cool book. Not many people know about it, though."
   },
   {
     "objectID": "about.html",
@@ -74,7 +74,7 @@
     "href": "articles/article_01.html#the-problem",
     "title": "Looping a Triangle in Javascript",
     "section": "The Problem",
-    "text": "The Problem"
+    "text": "The Problem\n“Write a loop that makes seven calls to console.log to output the following triangle:\n#\n##\n###\n####\n#####\n######\n#######\n(but without the apostrophes).”"
   },
   {
     "objectID": "articles/article_02.html#the-solution",
@@ -103,5 +103,26 @@
     "title": "Determining Evenness via Recursion",
     "section": "The Javascript File",
     "text": "The Javascript File\nIn order to see this file in action, follow this link to see examples of this function’s use."
+  },
+  {
+    "objectID": "articles/article_01.html#the-solution",
+    "href": "articles/article_01.html#the-solution",
+    "title": "Looping a Triangle in Javascript",
+    "section": "The Solution",
+    "text": "The Solution\nHere is the full code for the triangle:\n\nlet symbol = \"#\";\nfor (let length = symbol.length; symbol.length &lt;= 7; symbol += \"#\") {\n    console.log(symbol)\n}\nThe idea behind this solution is utilizing a simple for-loop. “symbol” is set equal to #, as that is the first line. From there, while the iterable “i” is less than 7, the length of the last line of the triangle, another # is added onto “symbol”, and each addition is printed to the console. Thus, if we were to run the code, each iteration of “symbol” would be printed to the console."
+  },
+  {
+    "objectID": "articles/article_01.html#the-javascript-file",
+    "href": "articles/article_01.html#the-javascript-file",
+    "title": "Looping a Triangle in Javascript",
+    "section": "The Javascript File",
+    "text": "The Javascript File\nThe raw code can be found here."
+  },
+  {
+    "objectID": "articles/article_01.html#section-1",
+    "href": "articles/article_01.html#section-1",
+    "title": "Looping a Triangle in Javascript",
+    "section": "",
+    "text": "(but without the apostrophes).”"
   }
 ]
