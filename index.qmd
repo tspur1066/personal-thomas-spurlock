@@ -4,4 +4,4 @@ title: "Thomas' Cool Little Website"
 
 This is a website that I'm making for an assignment for CSC 324 at Georgetown College. Hope this is at least mildly entertaining and, God willing, cool.
 
-If you're in the mood, you can also check out [this cool book](https://www.newadvent.org/fathers/1201.htm){target="_blank"}. Not many people know about it, though.
+If you're in the mood, you can also check out [this cool book](https://www.newadvent.org/fathers/1201.htm){target="_blank"}. Highly recommend.

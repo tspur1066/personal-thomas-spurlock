@@ -1,5 +1,5 @@
 ---
-title: "404"
+title: "Error: 404"
 ---
 
 This page does not exist. Whoever told you it did played a dirty trick on you.
@@ -9,4 +9,4 @@ This page does not exist. Whoever told you it did played a dirty trick on you.
 
 
 
-But since you're already here, say hi to this guy! <img src="/images/Roland_horn.jpg" style="float: right; margin: 3px 0px 3px 12px;" width = 250>
+Make sure you ask for [St. Anthony of Padua's](https://www.catholic.org/saints/saint.php?saint_id=24){target=_blank} prayers so you can get back to the homepage in one piece (he's the patron saint of lost things). <img src="/images/anthony_of_padua.jpg" style="float: right; margin: 50px 100px 3px 12px;" width = 250>
