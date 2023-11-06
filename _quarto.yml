@@ -15,7 +15,7 @@ website:
       - href: articles/article_02.qmd
         text: Recursion
       - href: 404.qmd
-        text: Error page(it's a bit scary)
+        text: Error page (it's a bit scary)
 
   sidebar:
     - id: articles
@@ -31,9 +31,9 @@ website:
       - href: articles/article_01.qmd
         text: Looping a Triangle
       - href: articles/article_02.qmd
-        text: Evenness via Recursion
+        text: Recursion
       - href: 404.qmd
-        text: Error page(it's a bit scary)
+        text: Error page (it's a bit scary)
 
 format:
   html:

@@ -2,11 +2,16 @@
 title: "About"
 ---
 
-Hey hello, my name is Thomas, and I am a student at Georgetown College. This is the warmup website I created for an assignment in CSC 324. But enough about the website, this page is about ME!
+<img src="/images/me(2).jpg" style="float: right; margin: 0px 50px 3px 12px;" width = 100>
+
+
+
+Hey hello, my name is Thomas, and I am a student at Georgetown College. This is the warmup website I created for an assignment in CSC 324. But enough about the website, this page is about ME!-------------->
+(Note: picture may [is] be out of date)
 
 ## Basic Info
 
-As I said before, my name is Thomas Spurlock. I was born in Louisville, KY, in a small suburban neighborhood. My father works as the QA head for UofL Physicians, while my mother works as a standardized testing tutor and teacher. I also have an older brother, who graduated from Georgetown about 4 years ago.
+As I said before, my name is Thomas. I was born in Louisville, KY, in a small suburban neighborhood. My father works as the QA head for UofL Physicians, while my mother works as a standardized testing tutor and teacher. I also have an older brother, who graduated from Georgetown about 4 years ago.
 
 I come from a family of both eastern and western European descent. Though mostly Irish and Polish/Lithuanian (my great-grandma was a Polish national), I also have a smattering of Scottish, English, and even a small bit of South African. Having moved to the New World during the later Colonial Period, my family made their way from Maryland to Kentucky, and for the most part, we have stayed there.
 
@@ -14,7 +19,7 @@ I come from a family of both eastern and western European descent. Though mostly
 
 As one may be able to guess from the above description of my ancestry, I have an interest in genealogy. However, this stems from my greatest interest: history, and specifically, Classics.
 
-The exploits of the Greeks and Romans have demanded my attention ever since I was a young lad. Having attended the same small classical Christian school for my whole pre-college life, I have grown up studying Latin and later Greek, reading the Bible, and learning the history of Western Civilization and how we got to the point we find ourselves at today. 
+The exploits of the Greeks and Romans have demanded my attention ever since I was a young lad. Having attended the same small classical Christian school for my whole pre-college life, I grew up studying Latin and later Greek, reading the Bible, and learning the history of Western Civilization and how we got to the point we find ourselves at today. 
 
 Naturally, having studied Western history, I have studied the history of Christianity (being a Christian), as the two are inseparably linked. This leads me to my other favorite area of study: Christianity and theology. Originally attending a Baptist church as a baby, then being a heretical Lutheran (I won't get into it here), I now am in the process of being confirmed into the Roman Catholic Church. The history of Europe is the history of Christendom, and to study one without the other is not seeing the whole picture. Christianity shapes the way every Western nation thinks, even if one denies it or attempts to separate itself from Christianity.
 
@@ -22,10 +27,14 @@ The combination of the study of Christianity and the West, both with their tales
 
 Aside from the aforementioned areas of study, I also have an interest in computer science and programming. Though I dream and long for the past, that does not prevent me from recognizing that the age we live in is one of technology. Though I fear the machine, I must face it in some form or fashion. That's why and how you're reading this little blurb, if you didn't know!
 
-My favorite book is *The Divine Comedy* by Dante Alighieri. [This is the version I read](https://www.amazon.com/Divine-Comedy-Inferno-Purgatorio-Paradiso/dp/0451208633){target="_blank"}, which is good, but the [Dorothy Sayers version](https://www.amazon.com/The-Divine-Comedy-Penguin-Classics/dp/0140440062){target="_blank"} has great notes and is translated by a Catholic, so everything should be accurate for the most part. I believe this is the crown jewel of not just Medieval literature, but also perhaps of Christian literature (aside from the Bible) in general. Aside from that, some of my other favorite works include the *Summa Theologia* of St. Thomas Aquinas, *Orthodoxy* by G.K. Chesterton (both of which greatly influenced how I think) and *The Aeneid* of Virgil, the greatest pre-Christian epic. Highly recommend checking out all of them. 
+My favorite book is *The Divine Comedy* by Dante Alighieri. [This is the version I read](https://www.amazon.com/Divine-Comedy-Inferno-Purgatorio-Paradiso/dp/0451208633){target="_blank"}, which is good, but the [Dorothy Sayers version](https://www.amazon.com/The-Divine-Comedy-Penguin-Classics/dp/0140440062){target="_blank"} has great notes and is translated by a Catholic, so everything should be accurate for the most part. I believe this is the crown jewel of not just Medieval literature, but also perhaps of Christian literature (aside from the Bible) in general. Aside from that, some of my other favorite works include the [*Summa Theologia*](https://www.newadvent.org/summa/){target="_blank"} of St. Thomas Aquinas, [*Orthodoxy*](https://www.amazon.com/Orthodoxy-G-K-Chesterton/dp/0898705525){target="_blank"} by G.K. Chesterton (both of which greatly influenced how I think) and [*The Aeneid*](https://www.amazon.com/Aeneid-Penguin-Classics-Deluxe/dp/0143105132){target="_blank"} of Virgil, the greatest pre-Christian epic. Highly recommend checking out all of them. 
 
 Anyway, hopefully that tells you enough about me. Enjoy your time here on the site!
 
 --Thomas
+
+
+
+
 
 
