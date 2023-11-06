@@ -15,7 +15,7 @@ website:
       - href: articles/article_02.qmd
         text: Recursion
       - href: 404.qmd
-        text: Error page (it's a bit scary)
+        text: Error page
 
   sidebar:
     - id: articles
@@ -33,7 +33,7 @@ website:
       - href: articles/article_02.qmd
         text: Recursion
       - href: 404.qmd
-        text: Error page (it's a bit scary)
+        text: Error page
 
 format:
   html:
