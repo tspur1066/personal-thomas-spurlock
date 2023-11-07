@@ -5,7 +5,7 @@ project:
 website:
   title: "Thomas' Cool Little Website"
   site-path: "/warmup-thomas-spurlock/"
-  favicon: images/Roland_horn.jpg
+  favicon: images/ea1.png
   navbar:
     left:
       - href: index.qmd
