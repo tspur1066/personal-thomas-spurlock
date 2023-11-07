@@ -6,6 +6,8 @@ website:
   title: "Thomas' Cool Little Website"
   site-path: "/warmup-thomas-spurlock/"
   favicon: images/ea1.png
+  body-header: 
+    This website brought to you by me, Thomas 
   navbar:
     left:
       - href: index.qmd

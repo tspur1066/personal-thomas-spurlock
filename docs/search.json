@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Thomas’ Cool Little Website",
     "section": "",
-    "text": "This is a website that I’m making for an assignment for CSC 324 at Georgetown College. Hope this is at least mildly entertaining and, God willing, neat. To the left and top, you can find links to the About page, two articles covering Eloquent Javascript problems. You can also access the 404 page by putting whatever in the URL after /warmup-thomas-spurlock, if you so desire.\nIf you’re in the mood, you can also check out this cool book. Highly recommend."
+    "text": "This website brought to you by me, ThomasThis is a website that I’m making for an assignment for CSC 324 at Georgetown College. Hope this is at least mildly entertaining and, God willing, neat. To the left and top, you can find links to the About page, two articles covering Eloquent Javascript problems. You can also access the 404 page by putting whatever in the URL after /warmup-thomas-spurlock, if you so desire.\nIf you’re in the mood, you can also check out this cool book. Highly recommend."
   },
   {
     "objectID": "articles/article_01.html",
     "href": "articles/article_01.html",
     "title": "Looping a Triangle in Javascript",
     "section": "",
-    "text": "This problem is taken from Eloquent Javascript. You can find it here. Let’s see what it says:"
+    "text": "This website brought to you by me, Thomas\nThis problem is taken from Eloquent Javascript. You can find it here. Let’s see what it says:"
   },
   {
     "objectID": "articles/article_01.html#the-problem",
@@ -39,7 +39,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Hey hello, my name is Thomas, and I am a student at Georgetown College. This is the warmup website I created for an assignment in CSC 324. But enough about the website, this page is about ME!————–&gt; (Note: picture may [is] be out of date)"
+    "text": "This website brought to you by me, Thomas\nHey hello, my name is Thomas, and I am a student at Georgetown College. This is the warmup website I created for an assignment in CSC 324. But enough about the website, this page is about ME!————–&gt; (Note: picture may [is] be out of date)"
   },
   {
     "objectID": "about.html#basic-info",
@@ -60,7 +60,7 @@
     "href": "articles/article_02.html",
     "title": "Determining Evenness via Recursion",
     "section": "",
-    "text": "This problem is ALSO taken from Eloquent Javascript. If curious, it lives here, and it is usually welcoming to visitors. Here’s what it says:"
+    "text": "This website brought to you by me, Thomas\nThis problem is ALSO taken from Eloquent Javascript. If curious, it lives here, and it is usually welcoming to visitors. Here’s what it says:"
   },
   {
     "objectID": "articles/article_02.html#the-problem",
