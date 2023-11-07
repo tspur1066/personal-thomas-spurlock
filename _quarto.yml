@@ -9,7 +9,7 @@ website:
   body-header: 
     This website brought to you by me, Thomas 
   margin-header: |
-    ![Logo image](/images/Roland_horn.jpg.png)
+    [Thing](images/Roland_horn.jpg)
   navbar:
     left:
       - href: index.qmd
