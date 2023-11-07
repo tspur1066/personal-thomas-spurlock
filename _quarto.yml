@@ -15,8 +15,6 @@ website:
         text: Looping a Triangle
       - href: articles/article_02.qmd
         text: Recursion
-      - href: 404.qmd
-        text: Error page
 
   sidebar:
     - id: articles
@@ -33,8 +31,6 @@ website:
         text: Looping a Triangle
       - href: articles/article_02.qmd
         text: Recursion
-      - href: 404.qmd
-        text: Error page
 
 format:
   html:

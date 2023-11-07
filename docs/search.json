@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Thomas’ Cool Little Website",
     "section": "",
-    "text": "This is a website that I’m making for an assignment for CSC 324 at Georgetown College. Hope this is at least mildly entertaining and, God willing, neat. To the left and top, you can find links to the About page, two articles covering Eloquent Javascript problems, and the 404 Page, if you so desire to go there.\nIf you’re in the mood, you can also check out this cool book. Highly recommend."
+    "text": "This is a website that I’m making for an assignment for CSC 324 at Georgetown College. Hope this is at least mildly entertaining and, God willing, neat. To the left and top, you can find links to the About page, two articles covering Eloquent Javascript problems. You can also access the 404 page by putting whatever in the URL after /warmup-thomas-spurlock, if you so desire.\nIf you’re in the mood, you can also check out this cool book. Highly recommend."
   },
   {
     "objectID": "articles/article_01.html",

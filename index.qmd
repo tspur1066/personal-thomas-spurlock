@@ -2,6 +2,6 @@
 title: "Thomas' Cool Little Website"
 ---
 
-This is a website that I'm making for an assignment for CSC 324 at Georgetown College. Hope this is at least mildly entertaining and, God willing, neat. To the left and top, you can find links to the About page, two articles covering *Eloquent Javascript* problems, and the 404 Page, if you so desire to go there. 
+This is a website that I'm making for an assignment for CSC 324 at Georgetown College. Hope this is at least mildly entertaining and, God willing, neat. To the left and top, you can find links to the About page, two articles covering *Eloquent Javascript* problems. You can also access the 404 page by putting whatever in the URL after /warmup-thomas-spurlock, if you so desire. 
 
 If you're in the mood, you can also check out [this cool book](https://www.newadvent.org/fathers/1201.htm){target="_blank"}. Highly recommend.
