@@ -7,62 +7,6 @@
     "text": "This is a website that I’m making for an assignment for CSC 324 at Georgetown College. Hope this is at least mildly entertaining and, God willing, neat. To the left and top, you can find links to the About page, two articles covering Eloquent Javascript problems, and the 404 Page, if you so desire to go there.\nIf you’re in the mood, you can also check out this cool book. Highly recommend."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Hey hello, my name is Thomas, and I am a student at Georgetown College. This is the warmup website I created for an assignment in CSC 324. But enough about the website, this page is about ME!————–&gt; (Note: picture may [is] be out of date)"
-  },
-  {
-    "objectID": "about.html#basic-info",
-    "href": "about.html#basic-info",
-    "title": "About",
-    "section": "Basic Info",
-    "text": "Basic Info\nAs I said before, my name is Thomas. I was born in Louisville, KY, in a small suburban neighborhood. My father works as the QA head for UofL Physicians, while my mother works as a standardized testing tutor and teacher. I also have an older brother, who graduated from Georgetown about 4 years ago.\nI come from a family of both eastern and western European descent. Though mostly Irish and Polish/Lithuanian (my great-grandma was a Polish national), I also have a smattering of Scottish, English, and even a small bit of South African. Having moved to the New World during the later Colonial Period, my family made their way from Maryland to Kentucky, and for the most part, we have stayed there."
-  },
-  {
-    "objectID": "about.html#aeneid-1.1",
-    "href": "about.html#aeneid-1.1",
-    "title": "About",
-    "section": "Aeneid 1.1",
-    "text": "Aeneid 1.1\nArma virumque cano"
-  },
-  {
-    "objectID": "about.html#virgils-aeneid-1.1",
-    "href": "about.html#virgils-aeneid-1.1",
-    "title": "About",
-    "section": "Virgil’s Aeneid 1.1",
-    "text": "Virgil’s Aeneid 1.1\nArma virumque cano"
-  },
-  {
-    "objectID": "about.html#caesars-de-bello-gallico-1.1",
-    "href": "about.html#caesars-de-bello-gallico-1.1",
-    "title": "About",
-    "section": "Caesar’s De Bello Gallico 1.1",
-    "text": "Caesar’s De Bello Gallico 1.1\nGallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur.\n“All Gaul is divided into three parts, of which the Belgae inhabit one, another the Aquitani, the third those who in the language of themselves are called the Celts, in ours the Gauls.”"
-  },
-  {
-    "objectID": "about.html#the-song-of-roland-1.1-3",
-    "href": "about.html#the-song-of-roland-1.1-3",
-    "title": "About",
-    "section": "The Song of Roland 1.1-3",
-    "text": "The Song of Roland 1.1-3\nCarles li reis, nostre emperere magnes set anz tuz pleins ad estet en Espaigne: Tresqu’en la mer cunquist la tere altaigne."
-  },
-  {
-    "objectID": "articles/article_02.html",
-    "href": "articles/article_02.html",
-    "title": "Determining Evenness via Recursion",
-    "section": "",
-    "text": "This problem is ALSO taken from Eloquent Javascript. If curious, it lives here, and it is usually welcoming to visitors. Here’s what it says:"
-  },
-  {
-    "objectID": "articles/article_02.html#the-problem",
-    "href": "articles/article_02.html#the-problem",
-    "title": "Determining Evenness via Recursion",
-    "section": "The Problem",
-    "text": "The Problem\n“We’ve seen that % (the remainder operator) can be used to test whether a number is even or odd by using % 2 to see whether it’s divisible by two. Here’s another way to define whether a positive whole number is even or odd:\n-Zero is even.\n-One is odd.\n-For any other number N, its evenness is the same as N - 2.\nDefine a recursive function isEven corresponding to this description. The function should accept a single parameter (a positive, whole number) and return a Boolean.\nTest it on 50 and 75. See how it behaves on -1. Why? Can you think of a way to fix this?”\nWhat Haverbeke is asking the strapping young reader to do here is to create a function that, using recursion, determines whether a number is even or not. It must return either TRUE or FALSE, and it must determine evenness by using the N - 2 technique: if a whole number, when subtracted by 2 enough times, eventually equals 0, it is even, or eventually equals 1, it is odd."
-  },
-  {
     "objectID": "articles/article_01.html",
     "href": "articles/article_01.html",
     "title": "Looping a Triangle in Javascript",
@@ -77,11 +21,53 @@
     "text": "The Problem\n“Write a loop that makes seven calls to console.log to output the following triangle:\n#\n##\n###\n####\n#####\n######\n#######\n(but without the apostrophes).”"
   },
   {
-    "objectID": "articles/article_02.html#the-solution",
-    "href": "articles/article_02.html#the-solution",
-    "title": "Determining Evenness via Recursion",
+    "objectID": "articles/article_01.html#the-solution",
+    "href": "articles/article_01.html#the-solution",
+    "title": "Looping a Triangle in Javascript",
     "section": "The Solution",
-    "text": "The Solution\nFirst, we define the function isEven:\nconst isEven = function(x) {\n    if (x &lt; 0) {\n        return console.log(\"!!!!x must be a positive number!!!!\");\n    }\n    if (x == 1) {\n        return console.log(false);\n    } else if (x == 0) {\n        return console.log(true);\n    } else return isEven(x - 2);\n}\nisEven is a function accepting a single positive number, x, that returns either “true” if the number is even, or “false” if the number is odd. But let’s break it down:\nWe first set up a “negative gate”, as I’ll call it:\n\nif (x &lt; 0) {\n    return console.log(\"!!!!x must be a positive number!!!!\");\n}\nThe function first tests whether the number x is a negative number. If so, it prints an angry error message to the console.\nNext, we need to define a “base cases”, or in other words, the criteria needed for the funtion to return a desired outcome. For this function, we need to define two base cases, one for if x = 1 (that is, it’s odd), and another for x = 0 (it is even).\n\nif (x == 1) {\n       return console.log(false);\n   } else if (x == 0) {\n       return console.log(true);\nIf x ends up being equal to 1, the function prints “false” to the console, and if x is equal to 0, “true” is printed to the console.\nNow we get to the fun part: recursion! The"
+    "text": "The Solution\nHere is the full code for the triangle:\n\nlet symbol = \"#\";\nfor (let length = symbol.length; symbol.length &lt;= 7; symbol += \"#\") {\n    console.log(symbol)\n}\nThe idea behind this solution is utilizing a simple for-loop. “symbol” is set equal to #, as that is the first line. From there, while the iterable “i” is less than 7, the length of the last line of the triangle, another # is added onto “symbol”, and each addition is printed to the console. Thus, if we were to run the code, each iteration of “symbol” would be printed to the console."
+  },
+  {
+    "objectID": "articles/article_01.html#the-javascript-file",
+    "href": "articles/article_01.html#the-javascript-file",
+    "title": "Looping a Triangle in Javascript",
+    "section": "The Javascript File",
+    "text": "The Javascript File\nThe raw code can be found here."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hey hello, my name is Thomas, and I am a student at Georgetown College. This is the warmup website I created for an assignment in CSC 324. But enough about the website, this page is about ME!————–&gt; (Note: picture may [is] be out of date)"
+  },
+  {
+    "objectID": "about.html#basic-info",
+    "href": "about.html#basic-info",
+    "title": "About",
+    "section": "Basic Info",
+    "text": "Basic Info\nAs I said before, my name is Thomas. I was born in Louisville, KY, in a small suburban neighborhood. My father works as the QA head for UofL Physicians, while my mother works as a standardized testing tutor and teacher. I also have an older brother, who graduated from Georgetown about 4 years ago.\nI come from a family of both eastern and western European descent. Though mostly Irish and Polish/Lithuanian (my great-grandma was a Polish national), I also have a smattering of Scottish, English, and even a small bit of South African. Having moved to the New World during the later Colonial Period, my family made their way from Maryland to Kentucky, and for the most part, we have stayed there."
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
+    "title": "About",
+    "section": "Interests",
+    "text": "Interests\nAs one may be able to guess from the above description of my ancestry, I have an interest in genealogy. However, this stems from my greatest interest: history, and specifically, Classics.\nThe exploits of the Greeks and Romans have demanded my attention ever since I was a young lad. Having attended the same small classical Christian school for my whole pre-college life, I grew up studying Latin and later Greek, reading the Bible, and learning the history of Western Civilization and how we got to the point we find ourselves at today.\nNaturally, having studied Western history, I have studied the history of Christianity (being a Christian), as the two are inseparably linked. This leads me to my other favorite area of study: Christianity and theology. Originally attending a Baptist church as a baby, then being a heretical Lutheran (I won’t get into it here), I now am in the process of being confirmed into the Roman Catholic Church. The history of Europe is the history of Christendom, and to study one without the other is not seeing the whole picture. Christianity shapes the way every Western nation thinks, even if one denies it or attempts to separate itself from Christianity.\nThe combination of the study of Christianity and the West, both with their tales and epics of great heroes, monsters, saints, nations, and wars has shaped my perception of life around me. One could say I am a Romantic. I dream of a time of heroes like Achilles, Gothic cathedrals, exploration of new lands, and Arthurian adventures, even as we see each one of those things seemingly vanishing from the public consciousness and concern. It makes life much more interesting, and more worth living (which aren’t the only reasons I believe they are what is important, of course). But I digress.\nAside from the aforementioned areas of study, I also have an interest in computer science and programming. Though I dream and long for the past, that does not prevent me from recognizing that the age we live in is one of technology. Though I fear the machine, I must face it in some form or fashion. That’s why and how you’re reading this little blurb, if you didn’t know!\nMy favorite book is The Divine Comedy by Dante Alighieri. This is the version I read, which is good, but the Dorothy Sayers version has great notes and is translated by a Catholic, so everything should be accurate for the most part. I believe this is the crown jewel of not just Medieval literature, but also perhaps of Christian literature (aside from the Bible) in general. Aside from that, some of my other favorite works include the Summa Theologia of St. Thomas Aquinas, Orthodoxy by G.K. Chesterton (both of which greatly influenced how I think) and The Aeneid of Virgil, the greatest pre-Christian epic. Highly recommend checking out all of them.\nAnyway, hopefully that tells you enough about me. Enjoy your time here on the site!\n–Thomas"
+  },
+  {
+    "objectID": "articles/article_02.html",
+    "href": "articles/article_02.html",
+    "title": "Determining Evenness via Recursion",
+    "section": "",
+    "text": "This problem is ALSO taken from Eloquent Javascript. If curious, it lives here, and it is usually welcoming to visitors. Here’s what it says:"
+  },
+  {
+    "objectID": "articles/article_02.html#the-problem",
+    "href": "articles/article_02.html#the-problem",
+    "title": "Determining Evenness via Recursion",
+    "section": "The Problem",
+    "text": "The Problem\n“We’ve seen that % (the remainder operator) can be used to test whether a number is even or odd by using % 2 to see whether it’s divisible by two. Here’s another way to define whether a positive whole number is even or odd:\n-Zero is even.\n-One is odd.\n-For any other number N, its evenness is the same as N - 2.\nDefine a recursive function isEven corresponding to this description. The function should accept a single parameter (a positive, whole number) and return a Boolean.\nTest it on 50 and 75. See how it behaves on -1. Why? Can you think of a way to fix this?”\nWhat Haverbeke is asking the strapping young reader to do here is to create a function that, using recursion, determines whether a number is even or not. It must return either TRUE or FALSE, and it must determine evenness by using the N - 2 technique: if a whole number, when subtracted by 2 enough times, eventually equals 0, it is even, or eventually equals 1, it is odd."
   },
   {
     "objectID": "articles/article_02.html#the-solution-to-part-1",
@@ -103,33 +89,5 @@
     "title": "Determining Evenness via Recursion",
     "section": "The Javascript File",
     "text": "The Javascript File\nIn order to see this file in action, follow this link to see examples of this function’s use."
-  },
-  {
-    "objectID": "articles/article_01.html#the-solution",
-    "href": "articles/article_01.html#the-solution",
-    "title": "Looping a Triangle in Javascript",
-    "section": "The Solution",
-    "text": "The Solution\nHere is the full code for the triangle:\n\nlet symbol = \"#\";\nfor (let length = symbol.length; symbol.length &lt;= 7; symbol += \"#\") {\n    console.log(symbol)\n}\nThe idea behind this solution is utilizing a simple for-loop. “symbol” is set equal to #, as that is the first line. From there, while the iterable “i” is less than 7, the length of the last line of the triangle, another # is added onto “symbol”, and each addition is printed to the console. Thus, if we were to run the code, each iteration of “symbol” would be printed to the console."
-  },
-  {
-    "objectID": "articles/article_01.html#the-javascript-file",
-    "href": "articles/article_01.html#the-javascript-file",
-    "title": "Looping a Triangle in Javascript",
-    "section": "The Javascript File",
-    "text": "The Javascript File\nThe raw code can be found here."
-  },
-  {
-    "objectID": "articles/article_01.html#section-1",
-    "href": "articles/article_01.html#section-1",
-    "title": "Looping a Triangle in Javascript",
-    "section": "",
-    "text": "(but without the apostrophes).”"
-  },
-  {
-    "objectID": "about.html#interests",
-    "href": "about.html#interests",
-    "title": "About",
-    "section": "Interests",
-    "text": "Interests\nAs one may be able to guess from the above description of my ancestry, I have an interest in genealogy. However, this stems from my greatest interest: history, and specifically, Classics.\nThe exploits of the Greeks and Romans have demanded my attention ever since I was a young lad. Having attended the same small classical Christian school for my whole pre-college life, I grew up studying Latin and later Greek, reading the Bible, and learning the history of Western Civilization and how we got to the point we find ourselves at today.\nNaturally, having studied Western history, I have studied the history of Christianity (being a Christian), as the two are inseparably linked. This leads me to my other favorite area of study: Christianity and theology. Originally attending a Baptist church as a baby, then being a heretical Lutheran (I won’t get into it here), I now am in the process of being confirmed into the Roman Catholic Church. The history of Europe is the history of Christendom, and to study one without the other is not seeing the whole picture. Christianity shapes the way every Western nation thinks, even if one denies it or attempts to separate itself from Christianity.\nThe combination of the study of Christianity and the West, both with their tales and epics of great heroes, monsters, saints, nations, and wars has shaped my perception of life around me. One could say I am a Romantic. I dream of a time of heroes like Achilles, Gothic cathedrals, exploration of new lands, and Arthurian adventures, even as we see each one of those things seemingly vanishing from the public consciousness and concern. It makes life much more interesting, and more worth living (which aren’t the only reasons I believe they are what is important, of course). But I digress.\nAside from the aforementioned areas of study, I also have an interest in computer science and programming. Though I dream and long for the past, that does not prevent me from recognizing that the age we live in is one of technology. Though I fear the machine, I must face it in some form or fashion. That’s why and how you’re reading this little blurb, if you didn’t know!\nMy favorite book is The Divine Comedy by Dante Alighieri. This is the version I read, which is good, but the Dorothy Sayers version has great notes and is translated by a Catholic, so everything should be accurate for the most part. I believe this is the crown jewel of not just Medieval literature, but also perhaps of Christian literature (aside from the Bible) in general. Aside from that, some of my other favorite works include the Summa Theologia of St. Thomas Aquinas, Orthodoxy by G.K. Chesterton (both of which greatly influenced how I think) and The Aeneid of Virgil, the greatest pre-Christian epic. Highly recommend checking out all of them.\nAnyway, hopefully that tells you enough about me. Enjoy your time here on the site!\n–Thomas"
   }
 ]
