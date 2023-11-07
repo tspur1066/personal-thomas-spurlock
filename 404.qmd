@@ -5,8 +5,3 @@ title: "404"
 This page does not exist. Whoever told you it did played a dirty trick on you.
 
 You can use either the top bar or sidebars to get back to the (hopefully) working parts of the site.
-
-
-
-
-Make sure you ask for [St. Anthony of Padua's](https://www.catholic.org/saints/saint.php?saint_id=24){target=_blank} prayers so you can get back to the homepage in one piece (he's the patron saint of lost things). <img src="/images/anthony_of_padua.jpg" style="float: right; margin: 50px 100px 3px 12px;" width = 250>
