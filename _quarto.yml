@@ -6,10 +6,6 @@ website:
   title: "Thomas' Cool Little Website"
   site-path: "/warmup-thomas-spurlock/"
   favicon: images/ea1.png
-  body-header: 
-    This website brought to you by me, Thomas 
-  margin-header: |
-    [Thing](images/Roland_horn.jpg)
   navbar:
     left:
       - href: index.qmd
@@ -23,6 +19,7 @@ website:
 
   sidebar:
     - id: articles
+      logo: /images/jerusalem_cross1.png
       title: "Articles"
       style: "docked"
       background: light
