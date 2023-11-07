@@ -8,6 +8,8 @@ website:
   favicon: images/ea1.png
   body-header: 
     This website brought to you by me, Thomas 
+  margin-header: |
+    ![Logo image](images/Roland_horn.jpg.png)
   navbar:
     left:
       - href: index.qmd
