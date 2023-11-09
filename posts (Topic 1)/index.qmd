@@ -1,0 +1,14 @@
+---
+title: "Eclectic Ecclesial Essays"
+listing: 
+  contents: .
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+---
+
+Yo yo yo
