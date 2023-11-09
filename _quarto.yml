@@ -19,7 +19,7 @@ website:
 
   sidebar:
     - id: articles
-      logo: /images/jerusalem_cross1.png
+      logo: /images/jerusalem_cross2.png
       title: "Articles"
       style: "docked"
       background: light
