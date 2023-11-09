@@ -1,0 +1,9 @@
+---
+title: "Ecclesiastical versus Classical"
+description: "Caesar, not Caesar"
+author:
+  - name: Thomas Spurlock
+date: "2021-03-15"
+categories: [classics, "Ides of March"]
+image: Gaius_Asinius_Pollio.jpg
+---

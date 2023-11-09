@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Thomas’ Cool Little Website - Front Page of Blog 1 Page</title>
+<title>Thomas’ Cool Little Website - Eclectic Ecclesial Essays</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,9 +72,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -210,13 +210,13 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ides of March">Ides of March <span class="quarto-category-count">(1)</span></div><div class="category" data-category="classics">classics <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Front Page of Blog 1 Page</h1>
+<h1 class="title">Eclectic Ecclesial Essays</h1>
 </div>
 
 
@@ -238,7 +238,44 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="classics,Ides of March" data-listing-date-sort="1615780800000" data-listing-file-modified-sort="1699566654301" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="../posts (Topic 1)/post1/index.html"> <img src="../posts (Topic 1)/post1/Gaius_Asinius_Pollio.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../posts (Topic 1)/post1/index.html">
+<h3 class="no-anchor listing-title">
+Ecclesiastical versus Classical
+</h3>
+<div class="listing-subtitle">
 
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('classics'); return false;">
+classics
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Ides of March'); return false;">
+Ides of March
+</div>
+</div>
+<a href="../posts (Topic 1)/post1/index.html">
+<div class="listing-description">
+<p>Caesar, not Caesar</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../posts (Topic 1)/post1/index.html">
+<div class="listing-date">
+Mar 15, 2021
+</div>
+<div class="listing-author">
+Thomas Spurlock
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
