@@ -1,0 +1,11 @@
+---
+title: "Ireland: Broken Greatness"
+description: "The British Ruin Everything."
+author:
+  - name: Thomas Spurlock
+date: "2023-03-17"
+categories: [Classics, Ireland]
+image: stpatrick.jpg
+---
+
+Here's where I explain why Ireland was once a great nation, preserving much of Roman civilization, and how that all changed.

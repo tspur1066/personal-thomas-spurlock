@@ -17,9 +17,9 @@ website:
       - href: articles/article_02.qmd
         text: Recursion
       - href: posts (Topic 1)/index.qmd
-        text: Blog 1
+        text: Church
       - href: posts (Topic 2)/index.qmd
-        text: Blog 2
+        text: Computer Science
 
   sidebar:
     - id: articles
@@ -38,9 +38,9 @@ website:
       - href: articles/article_02.qmd
         text: Recursion
       - href: posts (Topic 1)/index.qmd
-        text: Blog 1
+        text: Church Blog
       - href: posts (Topic 2)/index.qmd
-        text: Blog 2
+        text: Computer Science Blog
 
 format:
   html:

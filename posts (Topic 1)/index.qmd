@@ -11,4 +11,4 @@ page-layout: full
 title-block-banner: false
 ---
 
-Yo yo yo
+This is where you can read about me complaining about things related to/adjacent to Church matters. Enjoy!

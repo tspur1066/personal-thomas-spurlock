@@ -7,11 +7,18 @@
     "text": "Hey hey hey\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts (Topic 1)/index.html",
-    "href": "posts (Topic 1)/index.html",
-    "title": "Eclectic Ecclesial Essays",
+    "objectID": "posts (Topic 1)/post1/index.html",
+    "href": "posts (Topic 1)/post1/index.html",
+    "title": "Ecclesiastical versus Classical",
     "section": "",
-    "text": "Yo yo yo\n\n\n\n\n\n\n\n\n  \n\n\n\n\nEcclesiastical versus Classical\n\n\n\n\n\n\n\nclassics\n\n\nIdes of March\n\n\n\n\nCaesar, not Caesar\n\n\n\n\n\n\nMar 15, 2021\n\n\nThomas Spurlock\n\n\n\n\n\n\nNo matching items"
+    "text": "This where I complain about the Classical pronunciation of Latin."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Thomas’ Cool Little Website",
+    "section": "",
+    "text": "This is a website that I’m making for an assignment for CSC 324 at Georgetown College. Hope this is at least mildly entertaining and, God willing, neat. To the left and top, you can find links to the About page, two articles covering Eloquent Javascript problems. You can also access the 404 page by putting whatever in the URL after /warmup-thomas-spurlock, if you so desire.\nIf you’re in the mood, you can also check out this cool book. Highly recommend."
   },
   {
     "objectID": "articles/article_02.html",
@@ -98,10 +105,17 @@
     "text": "The Javascript File\nThe raw code can be found here."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Thomas’ Cool Little Website",
+    "objectID": "posts (Topic 1)/index.html",
+    "href": "posts (Topic 1)/index.html",
+    "title": "Eclectic Ecclesial Essays",
     "section": "",
-    "text": "This is a website that I’m making for an assignment for CSC 324 at Georgetown College. Hope this is at least mildly entertaining and, God willing, neat. To the left and top, you can find links to the About page, two articles covering Eloquent Javascript problems. You can also access the 404 page by putting whatever in the URL after /warmup-thomas-spurlock, if you so desire.\nIf you’re in the mood, you can also check out this cool book. Highly recommend."
+    "text": "This is where you can read about me complaining about things related to/adjacent to Church matters. Enjoy!\n\n\n\n\n\n\n\n\n  \n\n\n\n\nIreland: Broken Greatness\n\n\n\n\n\n\n\nClassics\n\n\nIreland\n\n\n\n\nThe British Ruin Everything.\n\n\n\n\n\n\nMar 17, 2023\n\n\nThomas Spurlock\n\n\n\n\n\n\n  \n\n\n\n\nEcclesiastical versus Classical\n\n\n\n\n\n\n\nClassics\n\n\nIdes of March\n\n\n\n\nCaesar, not Caesar\n\n\n\n\n\n\nMar 15, 2021\n\n\nThomas Spurlock\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts (Topic 1)/post2/index.html",
+    "href": "posts (Topic 1)/post2/index.html",
+    "title": "Ireland: Broken Greatness",
+    "section": "",
+    "text": "Here’s where I explain why Ireland was once a great nation, preserving much of Roman civilization, and how that all changed."
   }
 ]

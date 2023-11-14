@@ -4,6 +4,8 @@ description: "Caesar, not Caesar"
 author:
   - name: Thomas Spurlock
 date: "2021-03-15"
-categories: [classics, "Ides of March"]
-image: Gaius_Asinius_Pollio.jpg
+categories: [Classics, "Ides of March"]
+image: caesar.jpg
 ---
+
+This where I complain about the Classical pronunciation of Latin.
