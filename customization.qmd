@@ -1,5 +1,19 @@
+---
+title: "Themes"
+---
 
+Want to upload a cool new theme for your visit to the website? Just click that button and choose a jpeg from your computer!
 
+```{=html}
+<button>Upload Image</button>
+<script>
+  let button = document.querySelector("button");
+  button.addEventListener("click", () => {
+    console.log("Button clicked.");
+  });
+</script>
+```
 
+Cool, huh?
 
 
