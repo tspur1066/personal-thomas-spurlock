@@ -4,10 +4,8 @@ title: "Themes"
 
 Want to upload a cool new theme for your visit to the website? Just click that button and choose a jpeg from your computer!
 
-
 ```{=html}
-
-<button> Upload Image</button>
+<input type = 'file' onchange = 'renderFile()'   >
 <script>
 const renderFile = () => {
   const render = document.querySelector('img')
@@ -26,15 +24,6 @@ const renderFile = () => {
 </script>
 ```
 
-```{=html}
-
-<input type = 'file' onchange = 'renderFile()' >
-<br>
-<br>
-<img src = "" alt='rendered image' id='rendered-image'>
-<script> "js/customizing_theme.js"</script>
-
-```
 
 
 
