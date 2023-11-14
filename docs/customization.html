@@ -205,13 +205,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>Want to upload a cool new theme for your visit to the website? Just click that button and choose a jpeg from your computer!</p>
-<button>Upload Image</button>
-<script>
-  let button = document.querySelector("button");
-  button.addEventListener("click", () => {
-    console.log("Button clicked.");
-  });
-</script>
+
+<input type="file" onchange="renderFile()">
+<br>
+<br>
+<img src="" alt="rendered image" id="rendered-image">
+<script> "js/customizing_theme.js"</script>
+
 <p>Cool, huh?</p>
 
 
