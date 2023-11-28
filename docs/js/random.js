@@ -82,7 +82,7 @@ const links_2 = [
 // Function to open links
 
 function openRandomLink() {
-    if (getRandomNum(0,1) = 0) {
+    if (getRandomNum(0,1) == 0) {
         let number = getRandomNum(0, links_1.length);
         let link_stub_1 = links_1[number];
         return open(main_page+link_stub_1,target = "_blank");
