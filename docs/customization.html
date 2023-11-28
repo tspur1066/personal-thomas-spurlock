@@ -200,23 +200,24 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>Want to upload a cool new theme for your visit to the website? Just click that button and choose a jpeg from your computer!</p>
-<input type="file" onchange="renderFile()">
-<script>
-const renderFile = () => {
-  const render = document.querySelector('img')
-  const file = document.querySelector('input[type=file]').files[0]
-  const reader = new FileReader();
-  
-  
-  reader.addEventListener('load' , ()=> {
-    render.src = reader.result;
-  }, false)
 
-  if(file){
-    reader.readAsDataURL(file);
-  }
-}
-</script>
+<div class="player">
+  <video controls="">
+    <source src="/videos/Agent_Cobra_Original_Sin_Official_Reveal_Trailer.mp4" type="video/mp4">
+    <source src="/videos/Agent_Cobra_Original_Sin_Official_Reveal_Trailer.webm" type="video/webm">
+  </video>
+<div class="controls">
+    <button class="play" data-icon="P" aria-label="play pause toggle"></button>
+    <button class="stop" data-icon="S" aria-label="stop"></button>
+    <div class="timer">
+      <div></div>
+      <span aria-label="timer">00:00</span>
+    </div>
+    <button class="rwd" data-icon="B" aria-label="rewind"></button>
+    <button class="fwd" data-icon="F" aria-label="fast forward"></button>
+  </div>
+</div>
+
 <p>Cool, huh?</p>
 
 
