@@ -56,9 +56,9 @@ const links_1 = [
     "images/anthony_of_padua.jpg",
     "images/ea1.png",
     "images/jerusalem_cross2.png",
-    "images/Me(2).jpg",
-    "images/Roland_horn.jpg",
-    "lucky_find.png",
+    "images/me(2).jpg",
+    "images/lucky_find.png",
+    "images/Roland_horn.jpg"
     
     //Javascript Files
     "js/looping.js",
