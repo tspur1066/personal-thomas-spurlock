@@ -56,7 +56,7 @@ const links_1 = [
     "images/anthony_of_padua.jpg",
     "images/ea1.png",
     "images/jerusalem_cross2.png",
-    "images/me(2).jpg",
+    "images/Me(2).jpg",
     "images/Roland_horn.jpg",
     "lucky_find.png",
     
