@@ -4,8 +4,10 @@ description: "The British Ruin Everything."
 author:
   - name: Thomas Spurlock
 date: "2023-03-17"
-categories: [Classics, Ireland]
+categories: [Classics, Ireland, substantive]
 image: stpatrick.jpg
 ---
 
-Here's where I explain why Ireland was once a great nation, preserving much of Roman civilization, and how that all changed.
+This essay is not meant to be a super formal, well argued essay concerning the ever-shaky relationship between the Irish and English. Nor is it meant to necessarily persuade you, dear reader, of anything. This will mostly consist of me ranting about why the Irish are cool, and perhaps explain why I am not a huge fan of the British (at least with relation to this topic: otherwise they're pretty cool).
+
+In 

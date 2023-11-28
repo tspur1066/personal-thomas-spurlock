@@ -86,7 +86,7 @@ function openRandomLink() {
     } else {
     let number = getRandomNum(0, links_2.length);
     let link_stub_2 = links_2[number];
-    return open(main_page+link_stub_2, target="_blank");
+    return open(link_stub_2, target="_blank");
     }
 }
 
