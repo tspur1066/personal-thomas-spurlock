@@ -38,17 +38,17 @@ const links = [
     "404.html",
     "movies.html",
 
-    // Church Blog Post 1
+    // Church Blog Posts
     "posts%20(Topic%201)/",
     "posts%20(Topic%201)/post1",
+    "posts%20(Topic%201)/post1/caesar.jpg",
     "posts%20(Topic%201)/post2",
     "posts%20(Topic%201)/post2/stpatrick.jpg",
     "posts%20(Topic%201)/post3",
 
-    //Church Blog Post 2
+    //Computer Science Blog Posts
     "posts%20(Topic%202)/",
     "posts%20(Topic%202)/post1",
-    "posts%20(Topic%202)/post1/caesar.jpg",
     "posts%20(Topic%202)/post2",
 
     //Articles
