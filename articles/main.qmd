@@ -6,7 +6,25 @@ Welcome to the main articles page! Here you can find articles relating to [Eloqu
 
 ```{=html}
 <h1>Article 1: Looping a Triangle</h1>
-
+<table id = "articles">
+<tbody>
+    <tr>
+        <th> Article Title </th>
+        <th> Source </th>
+    </tr>
+    <tr>
+        <td> <a target="_self" href="https://tspur1066.github.io/personal-thomas-spurlock/articles/article_01.html"> Looping a Triangle</a></td>
+        <td> <a target="_blank" href=https://eloquentjavascript.net/02_program_structure.html#i_umoXp9u0e7> https://eloquentjavascript.net/02_program_structure.html#i_umoXp9u0e7</a> </td>
+    </tr>
+    <tr>
+        <td> <a target="_self" href="https://tspur1066.github.io/personal-thomas-spurlock/articles/article_02.html"> Recursion</a></td>
+        <td> <a target="_blank" href=https://eloquentjavascript.net/03_functions.html#i_jxl1p970Fy> https://eloquentjavascript.net/03_functions.html#i_jxl1p970Fy</a> </td>
+    </tr>
+    <tr>
+        <td> <a target="_self" href="https://tspur1066.github.io/personal-thomas-spurlock/articles/enhancement"> Enhancement: Random Webpage Button</a></td>
+        <td> <a target="_blank" href=https://stackoverflow.com/questions/24514214/open-a-random-page-using-javascript> https://stackoverflow.com/questions/24514214/open-a-random-page-using-javascript</a> </td>
+    </tr>
+</tbody>
 
 ```
 
