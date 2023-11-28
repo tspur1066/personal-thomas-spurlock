@@ -58,6 +58,7 @@ const links_1 = [
     "images/jerusalem_cross2.png",
     "images/me(2).jpg",
     "images/lucky_find.png",
+    "images/r_meme.jpg",
     
     //Javascript Files
     "js/looping.js",
@@ -66,14 +67,13 @@ const links_1 = [
 
     //Videos
     "videos/Agent_Cobra_Original_Sin_Trailer.mp4",
-    "videos/BLOOD_OF_ANGELS.mp4",
+    "videos/BLOOD_OF_ANGELS.mp4"
 ]
 
 const links_2 = [
     "https://www.google.com/search?q=why+doesn%27t+my+javascript+code+work&sca_esv=586011724&ei=_z1mZdPSIdC5qtsPxsGEYA&ved=0ahUKEwiTzpK8teeCAxXQnGoFHcYgAQwQ4dUDCBA&uact=5&oq=why+doesn%27t+my+javascript+code+work&gs_lp=Egxnd3Mtd2l6LXNlcnAiI3doeSBkb2Vzbid0IG15IGphdmFzY3JpcHQgY29kZSB3b3JrMggQIRigARjDBEjGNFCyD1iGL3ABeAGQAQCYAXugAZAGqgEDNy4yuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICBxAAGIAEGA3CAgYQABgHGB7CAgYQABgeGA3CAgsQABiABBiKBRiGA8ICBRAAGIAEwgIKECEYoAEYwwQYCuIDBBgAIEGIBgGQBgg&sclient=gws-wiz-serp",
     "https://usagif.com/gif/dancing-cat-33/",
-    "https://www.youtube.com/watch?v=8PVal8Fy7CM",
-    "https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Ffor-newbies-and-vets-alike-have-a-laugh-v0-pxipbcemwxn81.jpg%3Fauto%3Dwebp%26s%3Deef785be2014ff025d9faffcced7a08d9dcfd45b]"
+    "https://www.youtube.com/watch?v=8PVal8Fy7CM"
 ]
 
 // Function to open links
