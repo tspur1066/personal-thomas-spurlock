@@ -1,0 +1,32 @@
+---
+title: Why YOU Should Use Fortran
+description: Reasons you should use Fortran.
+author:
+  -name: Thomas Spurlock
+date: "1957-6-05"
+categories: [Coding, "Computer Science"]
+picture: fortran202x.png
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non sagittis erat. Ut suscipit tempor odio quis hendrerit. Fusce auctor placerat dolor sed fermentum. Nullam eget dignissim sem. Quisque ullamcorper fringilla libero, volutpat varius erat vulputate et. Aenean tincidunt arcu in leo consectetur, sit amet sollicitudin metus facilisis. Maecenas vitae purus pulvinar, luctus ante a, porta dolor. Morbi eget ex porttitor, sagittis est et, eleifend sem. Vestibulum sed diam purus.
+
+Integer convallis eros sit amet quam feugiat condimentum. Quisque imperdiet massa dolor, venenatis porttitor orci lobortis et. Donec ipsum libero, tincidunt eu urna dapibus, egestas hendrerit elit. Duis consequat, nunc vel bibendum tristique, sem massa lacinia diam, ac ornare urna massa ut dolor. Proin sapien ante, congue sed odio sit amet, tempor gravida erat. Vivamus vitae ornare dolor, id sollicitudin metus. Ut consequat pretium libero ac faucibus. Quisque pharetra mi vitae lacus convallis vulputate. Morbi in lorem dui. Ut rhoncus laoreet leo, quis commodo tellus.
+
+Integer mattis mi at pellentesque pretium. Nulla at nisl tortor. Vivamus dictum aliquam ante gravida vestibulum. Quisque vel tempor nulla, sit amet eleifend odio. Curabitur arcu massa, gravida quis iaculis sed, volutpat fermentum magna. Nulla condimentum auctor justo, quis sollicitudin massa molestie sit amet. Duis faucibus tellus vitae elit rutrum, quis ultricies justo ornare. Vivamus pharetra, magna in condimentum eleifend, libero quam pellentesque erat, quis suscipit tortor felis ut ipsum.
+
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus sollicitudin eu metus at accumsan. Nunc volutpat ligula sed vestibulum hendrerit. Sed iaculis feugiat ex id tempor. Quisque sed justo tempor, euismod lectus id, pulvinar sapien. Vivamus ultricies ligula eros, sed mattis dui gravida et. Sed id felis finibus, luctus tellus vel, porttitor lectus.
+
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris consequat in sapien sit amet varius. Cras euismod tincidunt lobortis. Nulla facilisi. In malesuada pharetra odio ac interdum. Fusce vitae facilisis neque. Nunc pulvinar, mauris vitae sollicitudin ullamcorper, est ante sodales ipsum, non gravida nisi velit hendrerit elit. Curabitur rutrum vestibulum erat, ut ultricies ante sodales ut. Phasellus at dui rhoncus, efficitur nunc gravida, lacinia felis. Aliquam ac vehicula nulla, at finibus felis.
+
+Mauris condimentum rutrum blandit. Pellentesque fringilla mauris non velit elementum, vitae mollis odio sagittis. Donec viverra tellus eget metus porttitor, eu blandit eros suscipit. Duis pretium tellus vel tellus ullamcorper varius. Praesent blandit justo eget purus bibendum rutrum. Suspendisse leo magna, gravida non imperdiet in, molestie a massa. Suspendisse id nibh tortor. Nam posuere est justo, at pellentesque enim sodales in. Fusce faucibus tincidunt venenatis. Sed vitae nisl a quam interdum congue sit amet ac neque. Aliquam erat volutpat. Etiam eget dui feugiat, consequat libero in, sodales orci. In laoreet arcu nec ex tempor, sed tristique risus consectetur.
+
+Ut volutpat erat nisi, a tempor metus pulvinar elementum. Aliquam erat volutpat. Nunc erat ex, convallis sit amet lobortis ut, commodo in sapien. Donec aliquam pellentesque est, ut condimentum dui sagittis sit amet. Mauris pulvinar, sapien quis posuere aliquet, sem lectus scelerisque mauris, mollis euismod ex diam ut libero. Vivamus rutrum efficitur aliquet. Phasellus in tincidunt lectus. Aliquam erat volutpat. Aliquam varius aliquet commodo. Vestibulum sit amet ex sit amet urna tempor iaculis euismod a ex. Curabitur faucibus metus eget turpis semper, a tristique metus rhoncus. Morbi consequat eu velit sit amet volutpat. Nunc vulputate nulla eget fringilla pretium. Maecenas massa tellus, viverra id viverra non, pretium sit amet leo.
+
+Vestibulum at consequat nisl, nec scelerisque purus. Maecenas venenatis nibh sit amet ipsum commodo eleifend. Proin semper et leo nec varius. Curabitur efficitur efficitur lobortis. Phasellus id congue velit. Sed sollicitudin consequat nisi ac lacinia. Nullam consectetur suscipit eros, in rhoncus erat. Donec non finibus felis. In lobortis orci ac consectetur efficitur. Quisque libero tellus, condimentum vel interdum vel, tempor ac arcu. Curabitur malesuada ut sem a dignissim.
+
+Morbi justo nulla, pellentesque ac congue id, consequat vel lacus. Ut nibh diam, ultricies id tempor id, fermentum et est. Maecenas quis imperdiet nisi. Aliquam erat volutpat. Phasellus urna sem, scelerisque at volutpat non, pellentesque eget enim. Cras tempor ut risus sed lacinia. Praesent ac enim urna. Donec ullamcorper, dolor nec faucibus pharetra, risus ante iaculis quam, sed consectetur neque odio eget nisi. Vivamus gravida vitae nisl rutrum auctor.
+
+Praesent ornare rutrum tincidunt. Pellentesque ac ornare arcu. Sed dignissim orci blandit diam ultrices, vel commodo felis aliquam. Pellentesque posuere suscipit neque a fringilla. Proin quis vulputate nulla. Pellentesque ultrices libero quis quam euismod tincidunt. Nam velit erat, placerat id rhoncus vitae, sodales quis velit. Maecenas tempus sem arcu, non mattis lorem dictum et. Integer pretium dictum nisi sed suscipit. Integer cursus pharetra luctus. Nullam imperdiet vitae dui at rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+
+
