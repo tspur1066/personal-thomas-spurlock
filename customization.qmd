@@ -1,163 +1,84 @@
 ---
-title: "Themes"
+title: "Movie Trailers"
 ---
 
-Want to upload a cool new theme for your visit to the website? Just click that button and choose a jpeg from your computer!
+Here are the trailers for two movies that I have been or are currently involved in. Just click on the drop-down tabs, and you'll be able to watch the trailer and read a brief blurb for both movies. Hope you enjoy them!
 
 
 ```{=html}
+<br>
+<br>
 
-<div class="player">
-  <video controls>
-    <source src="/videos/BLOOD_OF_ANGELS.mp4" type="video/mp4" />
-    <source src="/videos/BLOOD_OF_ANGELS.webm" type="video/webm" />
-  </video>
-  <p></p>
-<div class="controls">
-    <button class="play" data-icon="P" aria-label="play pause toggle"></button>
-    <button class="stop" data-icon="S" aria-label="stop"></button>
-    <div class="timer">
-      <div></div>
-      <span aria-label="timer">00:00</span>
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <strong> Trailer #1: "Agent Cobra: Original Sin" </strong>
+      </button>
+    </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong> Agent Cobra: Original Sin </strong> premiered in theaters (in Louisville) on January 15th, 2022, to a decent sized crowd and positive reception by most who watched it. A prequel to <strong> Agent Cobra: Reborn </strong>, a remake of my friends' homemade movies of youth, <strong> Agent Cobra: Orginal Sin </strong> has the titular agent venture out into the Panamanian jungle in pursuit of the leader of a drug cartel. However, the jungle is a strange place, and those who go in often don't come out quite the same...
+        <br>
+        <br>
+        <div class="player">
+          <div class="player">
+            <video controls>
+              <source src="videos/Agent_Cobra_Original_Sin_Trailer.mp4" type="video/mp4" />
+              <source src="videos/Agent_Cobra_Original_Sin_Trailer.webm" type="video/webm" />
+              <p>
+                Your browser doesn't support HTML video. Here is a
+                <a href="videos/Agent_Cobra_Original_Sin_Trailer.mp4">link to the video</a> instead.
+                </p>
+                </video>
+              </div>
+            </div>
+            <br>
+            <br>
+            The full movie can be found <a target="_blank" href="https://www.youtube.com/watch?v=CLC1diE21dI&t=1s"> here</a>.
+          </div>
+        </div>
+      </div>
     </div>
-    <button class="rwd" data-icon="B" aria-label="rewind"></button>
-    <button class="fwd" data-icon="F" aria-label="fast forward"></button>
-  </div>
-</div>
+<br>
+<br>
+```
 
+```{=html}
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <strong> Trailer #2: "The Blood of Angels" </strong>
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong> The Blood of Angels </strong> is a 2024 movie directed by Bobby Fowler and Ryan Torres, neither of whom go to Georgetown, but nonetheless the credit would be appreciated, I'm sure. Taking place in "turn of the century" Oklahoma, <strong> The Blood of Angels </strong> takes inspiration from many Western films, and will hopefully have a theatrical release, as well. Get excited!!
+        <br>
+        <br>
+        <div class="player">
+          <video controls>
+            <source src="videos/BLOOD_OF_ANGELS.mp4" type="video/mp4" />
+            <source src="/videos/BLOOD_OF_ANGELS.webm" type="video/webm" />
+            <p>
+              Your browser doesn't support HTML video. Here is a
+              <a href="videos/BLOOD_OF_ANGELS.mp4">link to the video</a> instead.
+              </p>
+              </video>
+              </div>
+              <br>
+              <br>
+              As the movie is not released, there is no link to the full movie. However, keep check back to the <a target="_blank" href="https://www.youtube.com/@g-squadstudioproductions991">G-Squad Studio Productions Youtube page</a> in January to see when it releases!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 ```
 
 
-```{=js}
-
-const media = document.querySelector("video");
-const controls = document.querySelector(".controls");
-
-const play = document.querySelector(".play");
-const stop = document.querySelector(".stop");
-const rwd = document.querySelector(".rwd");
-const fwd = document.querySelector(".fwd");
-
-const timerWrapper = document.querySelector(".timer");
-const timer = document.querySelector(".timer span");
-const timerBar = document.querySelector(".timer div");
-
-
-play.addEventListener("click", playPauseMedia);
-
-
-function playPauseMedia() {
-  if (media.paused) {
-    play.setAttribute("data-icon", "u");
-    media.play();
-  } else {
-    play.setAttribute("data-icon", "P");
-    media.pause();
-  }
-}
-
-
-stop.addEventListener("click", stopMedia);
-media.addEventListener("ended", stopMedia);
-
-
-function stopMedia() {
-  media.pause();
-  media.currentTime = 0;
-  play.setAttribute("data-icon", "P");
-}
-
-
-rwd.addEventListener("click", mediaBackward);
-fwd.addEventListener("click", mediaForward);
-
-
-let intervalFwd;
-let intervalRwd;
-
-
-function mediaBackward() {
-  clearInterval(intervalFwd);
-  fwd.classList.remove("active");
-
-  if (rwd.classList.contains("active")) {
-    rwd.classList.remove("active");
-    clearInterval(intervalRwd);
-    media.play();
-  } else {
-    rwd.classList.add("active");
-    media.pause();
-    intervalRwd = setInterval(windBackward, 200);
-  }
-}
-
-
-function mediaForward() {
-  clearInterval(intervalRwd);
-  rwd.classList.remove("active");
-
-  if (fwd.classList.contains("active")) {
-    fwd.classList.remove("active");
-    clearInterval(intervalFwd);
-    media.play();
-  } else {
-    fwd.classList.add("active");
-    media.pause();
-    intervalFwd = setInterval(windForward, 200);
-  }
-}
-
-
-function windBackward() {
-  if (media.currentTime <= 3) {
-    rwd.classList.remove("active");
-    clearInterval(intervalRwd);
-    stopMedia();
-  } else {
-    media.currentTime -= 3;
-  }
-}
-
-
-function windForward() {
-  if (media.currentTime >= media.duration - 3) {
-    fwd.classList.remove("active");
-    clearInterval(intervalFwd);
-    stopMedia();
-  } else {
-    media.currentTime += 3;
-  }
-}
-
-
-media.addEventListener("timeupdate", setTime);
-
-
-function setTime() {
-  const minutes = Math.floor(media.currentTime / 60);
-  const seconds = Math.floor(media.currentTime - minutes * 60);
-
-  const minuteValue = minutes.toString().padStart(2, "0");
-  const secondValue = seconds.toString().padStart(2, "0");
-
-  const mediaTime = `${minuteValue}:${secondValue}`;
-  timer.textContent = mediaTime;
-
-  const barLength =
-    timerWrapper.clientWidth * (media.currentTime / media.duration);
-  timerBar.style.width = `${barLength}px`;
-}
-
-
-rwd.classList.remove("active");
-fwd.classList.remove("active");
-clearInterval(intervalRwd);
-clearInterval(intervalFwd);
-
-
-```
-
-Cool, huh?
 
 
