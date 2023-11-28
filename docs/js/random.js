@@ -15,9 +15,10 @@ randomButton.addEventListener("click", openRandomLink);
 function getRandomNum(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min) + min);
+    return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
+console.log(getRandomNum(0,1));
 
 // Binding the home page link to a variable for ease of randomization
 
@@ -28,7 +29,6 @@ const main_page = "https://tspur1066.github.io/personal-thomas-spurlock/"
 
 const links_1 = [
     //Main Pages
-    "README.html",
     "about.html",
     "404.html",
     "movies.html",
@@ -82,13 +82,14 @@ function openRandomLink() {
     if (getRandomNum(0,1) == 0) {
         let number = getRandomNum(0, links_1.length);
         let link_stub_1 = links_1[number];
-        return open(main_page+link_stub_1,target = "_blank");
+        return (main_page+link_stub_1);
     } else {
     let number = getRandomNum(0, links_2.length);
     let link_stub_2 = links_2[number];
-    return open(main_page+link_stub_2,target = "_blank");
+    return (main_page+link_stub_2);
     }
 }
 
+console.log(openRandomLink());
 
 

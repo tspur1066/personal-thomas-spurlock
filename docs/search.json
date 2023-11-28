@@ -1,31 +1,80 @@
 [
   {
-    "objectID": "posts (Topic 2)/index.html",
-    "href": "posts (Topic 2)/index.html",
-    "title": "Composte of Computer Science ̶C̶o̶m̶p̶l̶a̶i̶n̶t̶s̶ Compositions",
+    "objectID": "posts (Topic 1)/post2/index.html",
+    "href": "posts (Topic 1)/post2/index.html",
+    "title": "Ireland: Broken Greatness",
     "section": "",
-    "text": "Hey hey hey\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Here’s where I explain why Ireland was once a great nation, preserving much of Roman civilization, and how that all changed."
   },
   {
-    "objectID": "posts (Topic 1)/post1/index.html",
-    "href": "posts (Topic 1)/post1/index.html",
-    "title": "Ecclesiastical versus Classical",
+    "objectID": "posts (Topic 1)/index.html",
+    "href": "posts (Topic 1)/index.html",
+    "title": "Eclectic Ecclesial Essays",
     "section": "",
-    "text": "This where I complain about the Classical pronunciation of Latin."
+    "text": "This is where you can read about me complaining about things related to/adjacent to Church matters. Enjoy!\n\n\n\n\n\n\n\n\n  \n\n\n\n\nIreland: Broken Greatness\n\n\n\n\n\n\n\nClassics\n\n\nIreland\n\n\n\n\nThe British Ruin Everything.\n\n\n\n\n\n\nMar 17, 2023\n\n\nThomas Spurlock\n\n\n\n\n\n\n  \n\n\n\n\nEcclesiastical versus Classical\n\n\n\n\n\n\n\nClassics\n\n\nIdes of March\n\n\n\n\nCaesar, not Caesar\n\n\n\n\n\n\nMar 15, 2021\n\n\nThomas Spurlock\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "movies.html",
-    "href": "movies.html",
-    "title": "Movie Trailers",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Thomas’ COOLER Website",
     "section": "",
-    "text": "Here are the trailers for two movies that I have been or are currently involved in. Just click on the drop-down tabs, and you’ll be able to watch the trailer and read a brief blurb for both movies. Hope you enjoy them!\n\n\n\n\n\n  \n    \n      \n         Trailer #1: \"Agent Cobra: Original Sin\" \n      \n    \n        \n      \n         Agent Cobra: Original Sin  premiered in theaters (in Louisville) on January 15th, 2022, to a decent sized crowd and positive reception by most who watched it. A prequel to  Agent Cobra: Reborn , a remake of my friends' homemade movies of youth,  Agent Cobra: Orginal Sin  has the titular agent venture out into the Panamanian jungle in pursuit of the leader of a drug cartel. However, the jungle is a strange place, and those who go in often don't come out quite the same...\n        \n        \n        \n          \n            \n              \n              \n              \n                Your browser doesn't support HTML video. Here is a\n                link to the video instead.\n                \n                \n              \n            \n            \n            \n            The full movie can be found  here.\n          \n        \n      \n    \n\n\n\n  \n    \n      \n         Trailer #2: \"The Blood of Angels\" \n      \n    \n    \n      \n         The Blood of Angels  is a 2024 movie directed by Bobby Fowler and Ryan Torres, neither of whom go to Georgetown, but nonetheless the credit would be appreciated, I'm sure. Taking place in \"turn of the century\" Oklahoma,  The Blood of Angels  takes inspiration from many Western films, and will hopefully have a theatrical release, as well. Get excited!!\n        \n        \n        \n          \n            \n            \n            \n              Your browser doesn't support HTML video. Here is a\n              link to the video instead.\n              \n              \n              \n              \n              \n              As the movie is not released, there is no link to the full movie. However, keep check back to the G-Squad Studio Productions Youtube page in January to see when it releases!"
+    "text": "This is a website that I’m making for an assignment for CSC 324 at Georgetown College. Hope this is at least mildly entertaining and, God willing, neat. To the left and top, you can find links to the About page, two articles covering Eloquent Javascript problems. You can also access the 404 page by putting whatever in the URL after /personal-thomas-spurlock, if you so desire.\nYou can also click  \n\n    this button\n    \n    \n to be taken to a random page.\n\n\nIf you’re in the mood, you can also check out this cool book. Highly recommend."
   },
   {
-    "objectID": "articles/main.html",
-    "href": "articles/main.html",
-    "title": "Articles",
+    "objectID": "articles/enhancement.html",
+    "href": "articles/enhancement.html",
+    "title": "Major Enhancement: Random Button",
     "section": "",
-    "text": "Welcome to the main articles page! Here you can find articles relating to Eloquent Javascript problems, and an article talking about the major enhancement to this website: the cool movie trailer page. Give ’em a read, if you’d like: they should hopefully be at least somewhat interesting.\n\nArticle 1: Looping a Triangle\n\n\n    \n         Article Title \n         Source \n    \n    \n          Looping a Triangle\n          https://eloquentjavascript.net/02_program_structure.html#i_umoXp9u0e7 \n    \n    \n          Recursion\n          https://eloquentjavascript.net/03_functions.html#i_jxl1p970Fy \n    \n    \n          Enhancement: Random Webpage Button\n          https://stackoverflow.com/questions/24514214/open-a-random-page-using-javascript"
+    "text": "Yeah yeah yeah"
+  },
+  {
+    "objectID": "articles/article_01.html",
+    "href": "articles/article_01.html",
+    "title": "Looping a Triangle in Javascript",
+    "section": "",
+    "text": "This problem is taken from Eloquent Javascript. You can find it here. Let’s see what it says:"
+  },
+  {
+    "objectID": "articles/article_01.html#the-problem",
+    "href": "articles/article_01.html#the-problem",
+    "title": "Looping a Triangle in Javascript",
+    "section": "The Problem",
+    "text": "The Problem\n“Write a loop that makes seven calls to console.log to output the following triangle:\n#\n##\n###\n####\n#####\n######\n#######\n(but without the apostrophes).”"
+  },
+  {
+    "objectID": "articles/article_01.html#the-solution",
+    "href": "articles/article_01.html#the-solution",
+    "title": "Looping a Triangle in Javascript",
+    "section": "The Solution",
+    "text": "The Solution\nHere is the full code for the triangle:\n\nlet symbol = \"#\";\nfor (let length = symbol.length; symbol.length &lt;= 7; symbol += \"#\") {\n    console.log(symbol)\n}\nThe idea behind this solution is utilizing a simple for-loop. “symbol” is set equal to #, as that is the first line. From there, while the iterable “i” is less than 7, the length of the last line of the triangle, another # is added onto “symbol”, and each addition is printed to the console. Thus, if we were to run the code, each iteration of “symbol” would be printed to the console."
+  },
+  {
+    "objectID": "articles/article_01.html#the-javascript-file",
+    "href": "articles/article_01.html#the-javascript-file",
+    "title": "Looping a Triangle in Javascript",
+    "section": "The Javascript File",
+    "text": "The Javascript File\nThe raw code can be found here."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hey hello, my name is Thomas, and I am a student at Georgetown College. This is the warmup website I created for an assignment in CSC 324. But enough about the website, this page is about ME!————–&gt; (Note: picture may [is] be out of date)"
+  },
+  {
+    "objectID": "about.html#basic-info",
+    "href": "about.html#basic-info",
+    "title": "About",
+    "section": "Basic Info",
+    "text": "Basic Info\nAs I said before, my name is Thomas. I was born in Louisville, KY, in a small suburban neighborhood. My father works as the QA head for UofL Physicians, while my mother works as a standardized testing tutor and teacher. I also have an older brother, who graduated from Georgetown about 4 years ago.\nI come from a family of both eastern and western European descent. Though mostly Irish and Polish/Lithuanian (my great-grandma was a Polish national), I also have a smattering of Scottish, English, and even a small bit of South African. Having moved to the New World during the later Colonial Period, my family made their way from Maryland to Kentucky, and for the most part, we have stayed there."
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
+    "title": "About",
+    "section": "Interests",
+    "text": "Interests\nAs one may be able to guess from the above description of my ancestry, I have an interest in genealogy. However, this stems from my greatest interest: history, and specifically, Classics.\nThe exploits of the Greeks and Romans have demanded my attention ever since I was a young lad. Having attended the same small classical Christian school for my whole pre-college life, I grew up studying Latin and later Greek, reading the Bible, and learning the history of Western Civilization and how we got to the point we find ourselves at today.\nNaturally, having studied Western history, I have studied the history of Christianity (being a Christian), as the two are inseparably linked. This leads me to my other favorite area of study: Christianity and theology. Originally attending a Baptist church as a baby, then being a heretical Lutheran (I won’t get into it here), I now am in the process of being confirmed into the Roman Catholic Church. The history of Europe is the history of Christendom, and to study one without the other is not seeing the whole picture. Christianity shapes the way every Western nation thinks, even if one denies it or attempts to separate itself from Christianity.\nThe combination of the study of Christianity and the West, both with their tales and epics of great heroes, monsters, saints, nations, and wars has shaped my perception of life around me. One could say I am a Romantic. I dream of a time of heroes like Achilles, Gothic cathedrals, exploration of new lands, and Arthurian adventures, even as we see each one of those things seemingly vanishing from the public consciousness and concern. It makes life much more interesting, and more worth living (which aren’t the only reasons I believe they are what is important, of course). But I digress.\nAside from the aforementioned areas of study, I also have an interest in computer science and programming. Though I dream and long for the past, that does not prevent me from recognizing that the age we live in is one of technology. Though I fear the machine, I must face it in some form or fashion. That’s why and how you’re reading this little blurb, if you didn’t know!\nMy favorite book is The Divine Comedy by Dante Alighieri. This is the version I read, which is good, but the Dorothy Sayers version has great notes and is translated by a Catholic, so everything should be accurate for the most part. I believe this is the crown jewel of not just Medieval literature, but also perhaps of Christian literature (aside from the Bible) in general. Aside from that, some of my other favorite works include the Summa Theologia of St. Thomas Aquinas, Orthodoxy by G.K. Chesterton (both of which greatly influenced how I think) and The Aeneid of Virgil, the greatest pre-Christian epic. Highly recommend checking out all of them.\nAnyway, hopefully that tells you enough about me. Enjoy your time here on the site!\n–Thomas"
   },
   {
     "objectID": "articles/article_02.html",
@@ -63,80 +112,31 @@
     "text": "The Javascript File\nIn order to see this file in action, follow this link to see examples of this function’s use."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "articles/main.html",
+    "href": "articles/main.html",
+    "title": "Articles",
     "section": "",
-    "text": "Hey hello, my name is Thomas, and I am a student at Georgetown College. This is the warmup website I created for an assignment in CSC 324. But enough about the website, this page is about ME!————–&gt; (Note: picture may [is] be out of date)"
+    "text": "Welcome to the main articles page! Here you can find articles relating to Eloquent Javascript problems, and an article talking about the major enhancement to this website: the cool movie trailer page. Give ’em a read, if you’d like: they should hopefully be at least somewhat interesting.\n\nArticle 1: Looping a Triangle\n\n\n    \n         Article Title \n         Source \n    \n    \n          Looping a Triangle\n          https://eloquentjavascript.net/02_program_structure.html#i_umoXp9u0e7 \n    \n    \n          Recursion\n          https://eloquentjavascript.net/03_functions.html#i_jxl1p970Fy \n    \n    \n          Enhancement: Random Webpage Button\n          https://stackoverflow.com/questions/24514214/open-a-random-page-using-javascript"
   },
   {
-    "objectID": "about.html#basic-info",
-    "href": "about.html#basic-info",
-    "title": "About",
-    "section": "Basic Info",
-    "text": "Basic Info\nAs I said before, my name is Thomas. I was born in Louisville, KY, in a small suburban neighborhood. My father works as the QA head for UofL Physicians, while my mother works as a standardized testing tutor and teacher. I also have an older brother, who graduated from Georgetown about 4 years ago.\nI come from a family of both eastern and western European descent. Though mostly Irish and Polish/Lithuanian (my great-grandma was a Polish national), I also have a smattering of Scottish, English, and even a small bit of South African. Having moved to the New World during the later Colonial Period, my family made their way from Maryland to Kentucky, and for the most part, we have stayed there."
-  },
-  {
-    "objectID": "about.html#interests",
-    "href": "about.html#interests",
-    "title": "About",
-    "section": "Interests",
-    "text": "Interests\nAs one may be able to guess from the above description of my ancestry, I have an interest in genealogy. However, this stems from my greatest interest: history, and specifically, Classics.\nThe exploits of the Greeks and Romans have demanded my attention ever since I was a young lad. Having attended the same small classical Christian school for my whole pre-college life, I grew up studying Latin and later Greek, reading the Bible, and learning the history of Western Civilization and how we got to the point we find ourselves at today.\nNaturally, having studied Western history, I have studied the history of Christianity (being a Christian), as the two are inseparably linked. This leads me to my other favorite area of study: Christianity and theology. Originally attending a Baptist church as a baby, then being a heretical Lutheran (I won’t get into it here), I now am in the process of being confirmed into the Roman Catholic Church. The history of Europe is the history of Christendom, and to study one without the other is not seeing the whole picture. Christianity shapes the way every Western nation thinks, even if one denies it or attempts to separate itself from Christianity.\nThe combination of the study of Christianity and the West, both with their tales and epics of great heroes, monsters, saints, nations, and wars has shaped my perception of life around me. One could say I am a Romantic. I dream of a time of heroes like Achilles, Gothic cathedrals, exploration of new lands, and Arthurian adventures, even as we see each one of those things seemingly vanishing from the public consciousness and concern. It makes life much more interesting, and more worth living (which aren’t the only reasons I believe they are what is important, of course). But I digress.\nAside from the aforementioned areas of study, I also have an interest in computer science and programming. Though I dream and long for the past, that does not prevent me from recognizing that the age we live in is one of technology. Though I fear the machine, I must face it in some form or fashion. That’s why and how you’re reading this little blurb, if you didn’t know!\nMy favorite book is The Divine Comedy by Dante Alighieri. This is the version I read, which is good, but the Dorothy Sayers version has great notes and is translated by a Catholic, so everything should be accurate for the most part. I believe this is the crown jewel of not just Medieval literature, but also perhaps of Christian literature (aside from the Bible) in general. Aside from that, some of my other favorite works include the Summa Theologia of St. Thomas Aquinas, Orthodoxy by G.K. Chesterton (both of which greatly influenced how I think) and The Aeneid of Virgil, the greatest pre-Christian epic. Highly recommend checking out all of them.\nAnyway, hopefully that tells you enough about me. Enjoy your time here on the site!\n–Thomas"
-  },
-  {
-    "objectID": "articles/article_01.html",
-    "href": "articles/article_01.html",
-    "title": "Looping a Triangle in Javascript",
+    "objectID": "movies.html",
+    "href": "movies.html",
+    "title": "Movie Trailers",
     "section": "",
-    "text": "This problem is taken from Eloquent Javascript. You can find it here. Let’s see what it says:"
+    "text": "Here are the trailers for two movies that I have been or are currently involved in. Just click on the drop-down tabs, and you’ll be able to watch the trailer and read a brief blurb for both movies. Hope you enjoy them!\n\n\n\n\n\n  \n    \n      \n         Trailer #1: \"Agent Cobra: Original Sin\" \n      \n    \n        \n      \n         Agent Cobra: Original Sin  premiered in theaters (in Louisville) on January 15th, 2022, to a decent sized crowd and positive reception by most who watched it. A prequel to  Agent Cobra: Reborn , a remake of my friends' homemade movies of youth,  Agent Cobra: Orginal Sin  has the titular agent venture out into the Panamanian jungle in pursuit of the leader of a drug cartel. However, the jungle is a strange place, and those who go in often don't come out quite the same...\n        \n        \n        \n          \n            \n              \n              \n              \n                Your browser doesn't support HTML video. Here is a\n                link to the video instead.\n                \n                \n              \n            \n            \n            \n            The full movie can be found  here.\n          \n        \n      \n    \n\n\n\n  \n    \n      \n         Trailer #2: \"The Blood of Angels\" \n      \n    \n    \n      \n         The Blood of Angels  is a 2024 movie directed by Bobby Fowler and Ryan Torres, neither of whom go to Georgetown, but nonetheless the credit would be appreciated, I'm sure. Taking place in \"turn of the century\" Oklahoma,  The Blood of Angels  takes inspiration from many Western films, and will hopefully have a theatrical release, as well. Get excited!!\n        \n        \n        \n          \n            \n            \n            \n              Your browser doesn't support HTML video. Here is a\n              link to the video instead.\n              \n              \n              \n              \n              \n              As the movie is not released, there is no link to the full movie. However, keep check back to the G-Squad Studio Productions Youtube page in January to see when it releases!"
   },
   {
-    "objectID": "articles/article_01.html#the-problem",
-    "href": "articles/article_01.html#the-problem",
-    "title": "Looping a Triangle in Javascript",
-    "section": "The Problem",
-    "text": "The Problem\n“Write a loop that makes seven calls to console.log to output the following triangle:\n#\n##\n###\n####\n#####\n######\n#######\n(but without the apostrophes).”"
-  },
-  {
-    "objectID": "articles/article_01.html#the-solution",
-    "href": "articles/article_01.html#the-solution",
-    "title": "Looping a Triangle in Javascript",
-    "section": "The Solution",
-    "text": "The Solution\nHere is the full code for the triangle:\n\nlet symbol = \"#\";\nfor (let length = symbol.length; symbol.length &lt;= 7; symbol += \"#\") {\n    console.log(symbol)\n}\nThe idea behind this solution is utilizing a simple for-loop. “symbol” is set equal to #, as that is the first line. From there, while the iterable “i” is less than 7, the length of the last line of the triangle, another # is added onto “symbol”, and each addition is printed to the console. Thus, if we were to run the code, each iteration of “symbol” would be printed to the console."
-  },
-  {
-    "objectID": "articles/article_01.html#the-javascript-file",
-    "href": "articles/article_01.html#the-javascript-file",
-    "title": "Looping a Triangle in Javascript",
-    "section": "The Javascript File",
-    "text": "The Javascript File\nThe raw code can be found here."
-  },
-  {
-    "objectID": "articles/enhancement.html",
-    "href": "articles/enhancement.html",
-    "title": "Major Enhancement: Random Button",
+    "objectID": "posts (Topic 1)/post1/index.html",
+    "href": "posts (Topic 1)/post1/index.html",
+    "title": "Ecclesiastical versus Classical",
     "section": "",
-    "text": "Yeah yeah yeah"
+    "text": "This where I complain about the Classical pronunciation of Latin."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Thomas’ COOLER Website",
+    "objectID": "posts (Topic 2)/index.html",
+    "href": "posts (Topic 2)/index.html",
+    "title": "Composte of Computer Science ̶C̶o̶m̶p̶l̶a̶i̶n̶t̶s̶ Compositions",
     "section": "",
-    "text": "This is a website that I’m making for an assignment for CSC 324 at Georgetown College. Hope this is at least mildly entertaining and, God willing, neat. To the left and top, you can find links to the About page, two articles covering Eloquent Javascript problems. You can also access the 404 page by putting whatever in the URL after /personal-thomas-spurlock, if you so desire.\nYou can also click  \n\n    this button\n    \n    \n to be taken to a random page.\n\n\nIf you’re in the mood, you can also check out this cool book. Highly recommend."
-  },
-  {
-    "objectID": "posts (Topic 1)/index.html",
-    "href": "posts (Topic 1)/index.html",
-    "title": "Eclectic Ecclesial Essays",
-    "section": "",
-    "text": "This is where you can read about me complaining about things related to/adjacent to Church matters. Enjoy!\n\n\n\n\n\n\n\n\n  \n\n\n\n\nIreland: Broken Greatness\n\n\n\n\n\n\n\nClassics\n\n\nIreland\n\n\n\n\nThe British Ruin Everything.\n\n\n\n\n\n\nMar 17, 2023\n\n\nThomas Spurlock\n\n\n\n\n\n\n  \n\n\n\n\nEcclesiastical versus Classical\n\n\n\n\n\n\n\nClassics\n\n\nIdes of March\n\n\n\n\nCaesar, not Caesar\n\n\n\n\n\n\nMar 15, 2021\n\n\nThomas Spurlock\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts (Topic 1)/post2/index.html",
-    "href": "posts (Topic 1)/post2/index.html",
-    "title": "Ireland: Broken Greatness",
-    "section": "",
-    "text": "Here’s where I explain why Ireland was once a great nation, preserving much of Roman civilization, and how that all changed."
+    "text": "Hey hey hey\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
