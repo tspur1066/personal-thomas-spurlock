@@ -9,9 +9,10 @@ Want to upload a cool new theme for your visit to the website? Just click that b
 
 <div class="player">
   <video controls>
-    <source src="/videos/Agent_Cobra_Original_Sin_Trailer.mp4" type="video/mp4" />
-    <source src="/videos/Agent_Cobra_Original_Sin_Trailer.webm" type="video/webm" />
+    <source src="/videos/BLOOD_OF_ANGELS.mp4" type="video/mp4" />
+    <source src="/videos/BLOOD_OF_ANGELS.webm" type="video/webm" />
   </video>
+  <p></p>
 <div class="controls">
     <button class="play" data-icon="P" aria-label="play pause toggle"></button>
     <button class="stop" data-icon="S" aria-label="stop"></button>
@@ -24,26 +25,7 @@ Want to upload a cool new theme for your visit to the website? Just click that b
   </div>
 </div>
 
-```
 
-```{=html}
-
-<div class="player">
-  <video controls>
-    <source src="/videos/THE_BLOOD_OF_ANGELS.mp4" type="video/mp4" />
-    <source src="/videos/THE_BLOOD_OF_ANGELS.webm" type="video/webm" />
-  </video>
-<div class="controls">
-    <button class="play" data-icon="P" aria-label="play pause toggle"></button>
-    <button class="stop" data-icon="S" aria-label="stop"></button>
-    <div class="timer">
-      <div></div>
-      <span aria-label="timer">00:00</span>
-    </div>
-    <button class="rwd" data-icon="B" aria-label="rewind"></button>
-    <button class="fwd" data-icon="F" aria-label="fast forward"></button>
-  </div>
-</div>
 ```
 
 
