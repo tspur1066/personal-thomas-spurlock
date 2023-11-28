@@ -1,0 +1,13 @@
+---
+title: The Community of Coders
+description: Programmers are silly people.
+author:
+  -name: Thomas Spurlock
+date: "1995-12-04"
+categories: [Community, substantive, Coding]
+picture: programming.jpg
+---
+
+
+Yeesh
+
