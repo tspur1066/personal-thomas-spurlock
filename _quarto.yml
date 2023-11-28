@@ -41,8 +41,8 @@ website:
         text: Church Blog
       - href: posts (Topic 2)/index.qmd
         text: Computer Science Blog
-      - href: customization.qmd
-        text: Customization
+      - href: movies.qmd
+        text: Cool Movie Trailers!
 
 format:
   html:
