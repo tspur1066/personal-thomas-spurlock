@@ -1,0 +1,7 @@
+---
+title: "Articles"
+---
+
+Welcome to the main articles page! Here you can find articles relating to [Eloquent Javascript](https://eloquentjavascript.net/) problems, and an article talking about the major enhancement to this website: the cool movie trailer page. Give 'em a read, if you'd like: they should hopefully be at least somewhat interesting.
+
+

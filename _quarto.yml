@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Thomas' Cool Little Website"
+  title: "Thomas' COOLER Website"
   site-path: "/warmup-thomas-spurlock/"
   favicon: images/ea1.png
   navbar:
@@ -12,10 +12,8 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - href: articles/article_01.qmd
-        text: Looping a Triangle
-      - href: articles/article_02.qmd
-        text: Recursion
+      - href: articles/main.qmd
+        text: Articles
       - href: posts (Topic 1)/index.qmd
         text: Church
       - href: posts (Topic 2)/index.qmd
@@ -33,10 +31,8 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - href: articles/article_01.qmd
-        text: Looping a Triangle
-      - href: articles/article_02.qmd
-        text: Recursion
+      - href: articles/main.qmd
+        text: Articles
       - href: posts (Topic 1)/index.qmd
         text: Church Blog
       - href: posts (Topic 2)/index.qmd
