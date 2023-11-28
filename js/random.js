@@ -68,8 +68,6 @@ const links_1 = [
     //Videos
     "videos/Agent_Cobra_Original_Sin_Trailer.mp4",
     "videos/BLOOD_OF_ANGELS.mp4",
-    "videos/Agent_Cobra_Original_Sin_Trailer.webm",
-    "videos/BLOOD_OF_ANGELS.webm"
 ]
 
 const links_2 = [
