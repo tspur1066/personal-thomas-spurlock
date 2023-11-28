@@ -57,7 +57,6 @@ const links_1 = [
     "images/ea1.png",
     "images/jerusalem_cross2.png",
     "images/Me(2).jpg",
-    "images/Roland_horn.jpg",
     "lucky_find.png",
     
     //Javascript Files
