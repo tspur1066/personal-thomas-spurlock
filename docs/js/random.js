@@ -4,7 +4,7 @@
 
 // Document selector and event listener for button
 
-const randomButton = document.querySelector("#random");
+const randomButton = document.querySelector("#button");
 
 randomButton.addEventListener("click", openRandomLink);
 
