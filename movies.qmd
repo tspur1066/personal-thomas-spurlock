@@ -46,14 +46,14 @@ Here are the trailers for two movies that I have been or are currently involved 
 ```
 
 ```{=html}
-<div class="accordion" id="accordionExample">
+<div class="accordion" id="accordionExample2">
   <div class="accordion-item">
     <h2 class="accordion-header">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
         <strong> Trailer #2: "The Blood of Angels" </strong>
       </button>
     </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+    <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample2">
       <div class="accordion-body">
         <strong> The Blood of Angels </strong> is a 2024 movie directed by Bobby Fowler and Ryan Torres, neither of whom go to Georgetown, but nonetheless the credit would be appreciated, I'm sure. Taking place in "turn of the century" Oklahoma, <strong> The Blood of Angels </strong> takes inspiration from many Western films, and will hopefully have a theatrical release, as well. Get excited!!
         <br>

@@ -2,7 +2,7 @@
 title: Why YOU Should Use Fortran
 description: Reasons you should use Fortran.
 author:
-  -name: Thomas Spurlock
+  - name: Thomas Spurlock
 date: "1957-6-05"
 categories: [Coding, "Computer Science"]
 image: fortran202x.png
