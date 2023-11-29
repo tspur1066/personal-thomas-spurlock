@@ -216,6 +216,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#the-problem" id="toc-the-problem" class="nav-link active" data-scroll-target="#the-problem">The “Problem”</a></li>
   <li><a href="#the-solution" id="toc-the-solution" class="nav-link" data-scroll-target="#the-solution">The Solution</a></li>
+  <li><a href="#the-javascript-file" id="toc-the-javascript-file" class="nav-link" data-scroll-target="#the-javascript-file">The Javascript File</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
   </ul>
 </nav>
     </div>
@@ -269,7 +271,91 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>What this function does is first set the entered max and min values to their nearest integers. After that, a random value between 0 and 1, chosen via Math.random, distributes itself to (max-min+1), added to the min value, and then is rounded down to the nearest integer. This ensures that the value returned is an integer, and it is possible for both the upper and lower bounds of the range to be returned. We will use this function to randomly select one of the values in an array.</p>
 <p>Next, since we’re working with HTML, we should define the document selector and event listener for our random button:</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode .js code-with-copy"><code class="sourceCode javascript"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> randomButton <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">querySelector</span>(<span class="st">"#button"</span>)<span class="op">;</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>randomButton<span class="op">.</span><span class="fu">addEventListener</span>(<span class="st">"click"</span><span class="op">,</span> openRandomLink)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>We define randomButton as our document selector, looking for the id “button”. After it has found “button”, the event listener “click” makes it such that, if the button is clicked, the function openRandomLink (defined later) will be used.</p>
+<p>Next, we’ll define a constant “main_page” that will make randomization easier:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode .js code-with-copy"><code class="sourceCode javascript"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> main_page <span class="op">=</span> <span class="st">"https://tspur1066.github.io/personal-thomas-spurlock/"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Now we define our arrays, one for pages of this website, the other for external links:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode .js code-with-copy"><code class="sourceCode javascript"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> links_1 <span class="op">=</span> [</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="co">//Main Pages</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"about.html"</span><span class="op">,</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"404.html"</span><span class="op">,</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"movies.html"</span><span class="op">,</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    <span class="co">// Church Blog Posts</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"posts%20(Topic%201)/"</span><span class="op">,</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"posts%20(Topic%201)/post1"</span><span class="op">,</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">"posts%20(Topic%201)/post1/caesar.jpg"</span><span class="op">,</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">"posts%20(Topic%201)/post2"</span><span class="op">,</span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">"posts%20(Topic%201)/post2/stpatrick.jpg"</span><span class="op">,</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">"posts%20(Topic%201)/post3"</span><span class="op">,</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">"posts%20(Topic%201)/post3/Athanasius.jpg"</span><span class="op">,</span></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>    <span class="co">//Computer Science Blog Posts</span></span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>    <span class="st">"posts%20(Topic%202)/"</span><span class="op">,</span></span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>    <span class="st">"posts%20(Topic%202)/post1"</span><span class="op">,</span></span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">"posts%20(Topic%202)/post1/programming.jpg"</span><span class="op">,</span></span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">"posts%20(Topic%202)/post2"</span><span class="op">,</span></span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">"posts%20(Topic%202)/post2/fortran202x.png"</span><span class="op">,</span></span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>    <span class="co">//Articles</span></span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>    <span class="st">"articles/main.html"</span><span class="op">,</span></span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>    <span class="st">"articles/article_01.html"</span><span class="op">,</span></span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>    <span class="st">"articles/article_02.html"</span><span class="op">,</span></span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>    <span class="st">"articles/enhancement"</span><span class="op">,</span></span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>    <span class="co">//Pictures</span></span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>    <span class="st">"images/anthony_of_padua.jpg"</span><span class="op">,</span></span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>    <span class="st">"images/ea1.png"</span><span class="op">,</span></span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>    <span class="st">"images/jerusalem_cross2.png"</span><span class="op">,</span></span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>    <span class="st">"images/me(2).jpg"</span><span class="op">,</span></span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>    <span class="st">"images/lucky_find.png"</span><span class="op">,</span></span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>    <span class="st">"images/r_meme.jpg"</span><span class="op">,</span></span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a>    <span class="co">//Javascript Files</span></span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>    <span class="st">"js/looping.js"</span><span class="op">,</span></span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a>    <span class="st">"js/random.js"</span><span class="op">,</span></span>
+<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a>    <span class="st">"js/recursion.js"</span><span class="op">,</span></span>
+<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a>    <span class="co">//Videos</span></span>
+<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a>    <span class="st">"videos/Agent_Cobra_Original_Sin_Trailer.mp4"</span><span class="op">,</span></span>
+<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a>    <span class="st">"videos/BLOOD_OF_ANGELS.mp4"</span></span>
+<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> links_2 <span class="op">=</span> [</span>
+<span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a>    <span class="st">"https://www.google.com/search?q=why+doesn%27t+my+javascript+code+work&amp;sca_esv=586011724&amp;ei=_z1mZdPSIdC5qtsPxsGEYA&amp;ved=0ahUKEwiTzpK8teeCAxXQnGoFHcYgAQwQ4dUDCBA&amp;uact=5&amp;oq=why+doesn%27t+my+javascript+code+work&amp;gs_lp=Egxnd3Mtd2l6LXNlcnAiI3doeSBkb2Vzbid0IG15IGphdmFzY3JpcHQgY29kZSB3b3JrMggQIRigARjDBEjGNFCyD1iGL3ABeAGQAQCYAXugAZAGqgEDNy4yuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICBxAAGIAEGA3CAgYQABgHGB7CAgYQABgeGA3CAgsQABiABBiKBRiGA8ICBRAAGIAEwgIKECEYoAEYwwQYCuIDBBgAIEGIBgGQBgg&amp;sclient=gws-wiz-serp"</span><span class="op">,</span></span>
+<span id="cb5-50"><a href="#cb5-50" aria-hidden="true" tabindex="-1"></a>    <span class="st">"https://usagif.com/gif/dancing-cat-33/"</span><span class="op">,</span></span>
+<span id="cb5-51"><a href="#cb5-51" aria-hidden="true" tabindex="-1"></a>    <span class="st">"https://www.youtube.com/watch?v=8PVal8Fy7CM</span></span>
+<span id="cb5-52"><a href="#cb5-52" aria-hidden="true" tabindex="-1"></a>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>The elements of links_1 are what I’m calling “link stubs”: they are the last part of a URL that will be added to the main part of the URL, which we bound to main_page. links_2 are simply links to external websites.</p>
+<p>Now to the good stuff. We’re gonna define the function we will use to both randomly select links, and then open said links:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode .js code-with-copy"><code class="sourceCode javascript"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">openRandomLink</span>() {</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (<span class="fu">getRandomNum</span>(<span class="dv">0</span><span class="op">,</span><span class="dv">1</span>) <span class="op">==</span> <span class="dv">0</span>) {</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>        <span class="kw">let</span> number <span class="op">=</span> <span class="fu">getRandomNum</span>(<span class="dv">0</span><span class="op">,</span> links_1<span class="op">.</span><span class="at">length</span>)<span class="op">;</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>        <span class="kw">let</span> link_stub_1 <span class="op">=</span> links_1[number]<span class="op">;</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="fu">open</span>(main_page<span class="op">+</span>link_stub_1<span class="op">,</span> target<span class="op">=</span><span class="st">"_blank"</span>)<span class="op">;</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> {</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> number <span class="op">=</span> <span class="fu">getRandomNum</span>(<span class="dv">0</span><span class="op">,</span> links_2<span class="op">.</span><span class="at">length</span>)<span class="op">;</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> link_stub_2 <span class="op">=</span> links_2[number]<span class="op">;</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="fu">open</span>(link_stub_2<span class="op">,</span> target<span class="op">=</span><span class="st">"_blank"</span>)<span class="op">;</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>getRandomNum is run to select either 0 or 1, which determines whether a link for a page on this website will be chosen, or if an external link will be chosen. If 0 is chosen, a random integer from 0 to the length of links_1 is chosen, and bound to “number”. This is the element of links_1 that will be selected and then bound to “link stub”. After that, “main_page” and “link_stub” are combined, creating a full link, and then run through the open() function, which simply opens a URL, and the parameter “target” is set to “_blank” so that the links open in a new tab.</p>
+<p>If 1 is chosen, the same process is applied, but an element of “links_2” is chosen and bound to “link_stub_2”, and “link_stub_2” is not added to “main_page”, as it is already a full URL. It is also opened in another tab.</p>
+<p>That’s pretty much it. I think it’s pretty cool, at least.</p>
+</section>
+<section id="the-javascript-file" class="level2">
+<h2 class="anchored" data-anchor-id="the-javascript-file">The Javascript File</h2>
+<p>The full code can be found <a href="../js/random.js" target="_blank">here</a>.</p>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<p>The table-sort code helped greatly with figuring out what I oughta do with regards to HTML. Additionally, <a href="https://stackoverflow.com/questions/24514214/open-a-random-page-using-javascript" target="_blank">this Stackoverflow page</a> had a similar idea of how to go about this task, and I used it to check my work.</p>
 
 
 </section>

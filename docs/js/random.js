@@ -18,7 +18,6 @@ function getRandomNum(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
-console.log(getRandomNum(0,1));
 
 // Binding the home page link to a variable for ease of randomization
 
@@ -93,6 +92,5 @@ function openRandomLink() {
     }
 }
 
-console.log(openRandomLink());
 
 

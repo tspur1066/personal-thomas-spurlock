@@ -50,7 +50,115 @@ Next, since we're working with HTML, we should define the document selector and 
 
 ```.js
 
+const randomButton = document.querySelector("#button");
 
+randomButton.addEventListener("click", openRandomLink);
 
 ```
+
+We define randomButton as our document selector, looking for the id "button". After it has found "button", the event listener "click" makes it such that, if the button is clicked, the function openRandomLink (defined later) will be used. 
+
+
+Next, we'll define a constant "main_page" that will make randomization easier:
+
+```.js
+
+const main_page = "https://tspur1066.github.io/personal-thomas-spurlock/"
+
+```
+
+
+Now we define our arrays, one for pages of this website, the other for external links:
+
+```.js
+
+const links_1 = [
+    //Main Pages
+    "about.html",
+    "404.html",
+    "movies.html",
+
+    // Church Blog Posts
+    "posts%20(Topic%201)/",
+    "posts%20(Topic%201)/post1",
+    "posts%20(Topic%201)/post1/caesar.jpg",
+    "posts%20(Topic%201)/post2",
+    "posts%20(Topic%201)/post2/stpatrick.jpg",
+    "posts%20(Topic%201)/post3",
+    "posts%20(Topic%201)/post3/Athanasius.jpg",
+
+    //Computer Science Blog Posts
+    "posts%20(Topic%202)/",
+    "posts%20(Topic%202)/post1",
+    "posts%20(Topic%202)/post1/programming.jpg",
+    "posts%20(Topic%202)/post2",
+    "posts%20(Topic%202)/post2/fortran202x.png",
+
+    //Articles
+    "articles/main.html",
+    "articles/article_01.html",
+    "articles/article_02.html",
+    "articles/enhancement",
+
+    //Pictures
+    "images/anthony_of_padua.jpg",
+    "images/ea1.png",
+    "images/jerusalem_cross2.png",
+    "images/me(2).jpg",
+    "images/lucky_find.png",
+    "images/r_meme.jpg",
+    
+    //Javascript Files
+    "js/looping.js",
+    "js/random.js",
+    "js/recursion.js",
+
+    //Videos
+    "videos/Agent_Cobra_Original_Sin_Trailer.mp4",
+    "videos/BLOOD_OF_ANGELS.mp4"
+]
+
+const links_2 = [
+    "https://www.google.com/search?q=why+doesn%27t+my+javascript+code+work&sca_esv=586011724&ei=_z1mZdPSIdC5qtsPxsGEYA&ved=0ahUKEwiTzpK8teeCAxXQnGoFHcYgAQwQ4dUDCBA&uact=5&oq=why+doesn%27t+my+javascript+code+work&gs_lp=Egxnd3Mtd2l6LXNlcnAiI3doeSBkb2Vzbid0IG15IGphdmFzY3JpcHQgY29kZSB3b3JrMggQIRigARjDBEjGNFCyD1iGL3ABeAGQAQCYAXugAZAGqgEDNy4yuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICBxAAGIAEGA3CAgYQABgHGB7CAgYQABgeGA3CAgsQABiABBiKBRiGA8ICBRAAGIAEwgIKECEYoAEYwwQYCuIDBBgAIEGIBgGQBgg&sclient=gws-wiz-serp",
+    "https://usagif.com/gif/dancing-cat-33/",
+    "https://www.youtube.com/watch?v=8PVal8Fy7CM
+]
+
+```
+
+The elements of links_1 are what I'm calling "link stubs": they are the last part of a URL that will be added to the main part of the URL, which we bound to main_page. links_2 are simply links to external websites.
+
+
+Now to the good stuff. We're gonna define the function we will use to both randomly select links, and then open said links:
+
+```.js
+
+function openRandomLink() {
+    if (getRandomNum(0,1) == 0) {
+        let number = getRandomNum(0, links_1.length);
+        let link_stub_1 = links_1[number];
+        return open(main_page+link_stub_1, target="_blank");
+    } else {
+    let number = getRandomNum(0, links_2.length);
+    let link_stub_2 = links_2[number];
+    return open(link_stub_2, target="_blank");
+    }
+}
+
+```
+
+getRandomNum is run to select either 0 or 1, which determines whether a link for a page on this website will be chosen, or if an external link will be chosen. If 0 is chosen, a random integer from 0 to the length of links_1 is chosen, and bound to "number". This is the element of links_1 that will be selected and then bound to "link stub". After that, "main_page" and "link_stub" are combined, creating a full link, and then run through the open() function, which simply opens a URL, and the parameter "target" is set to "_blank" so that the links open in a new tab.
+
+If 1 is chosen, the same process is applied, but an element of "links_2" is chosen and bound to "link_stub_2", and "link_stub_2" is not added to "main_page", as it is already a full URL. It is also opened in another tab.
+
+That's pretty much it. I think it's pretty cool, at least.
+
+## The Javascript File
+
+The full code can be found [here](/js/random.js){target="_blank"}.
+
+## Resources
+
+The table-sort code helped greatly with figuring out what I oughta do with regards to HTML. Additionally, [this Stackoverflow page](https://stackoverflow.com/questions/24514214/open-a-random-page-using-javascript){target="_blank"} had a similar idea of how to go about this task, and I used it to check my work. 
+
 
