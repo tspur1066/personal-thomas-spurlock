@@ -5,7 +5,7 @@ author:
   -name: Thomas Spurlock
 date: "1957-6-05"
 categories: [Coding, "Computer Science"]
-picture: fortran202x.png
+image: fortran202x.png
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non sagittis erat. Ut suscipit tempor odio quis hendrerit. Fusce auctor placerat dolor sed fermentum. Nullam eget dignissim sem. Quisque ullamcorper fringilla libero, volutpat varius erat vulputate et. Aenean tincidunt arcu in leo consectetur, sit amet sollicitudin metus facilisis. Maecenas vitae purus pulvinar, luctus ante a, porta dolor. Morbi eget ex porttitor, sagittis est et, eleifend sem. Vestibulum sed diam purus.

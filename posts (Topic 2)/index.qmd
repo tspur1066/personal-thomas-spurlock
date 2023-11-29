@@ -11,5 +11,4 @@ page-layout: full
 title-block-banner: false
 ---
 
-
-Hey hey hey
+Ever wondered about my thoughts on Computer Science? Know? Too bad! Here you can read some of my opinions on the science of computers.
