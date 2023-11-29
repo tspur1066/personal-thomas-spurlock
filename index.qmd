@@ -6,13 +6,12 @@ This is a website that I'm making for an assignment for CSC 324 at Georgetown Co
 
 ```{=html}
 You can also click  
-<body>
+
 <div id="button">
     <button id = "random" type="button" class="btn btn-primary">this button
         <script src="js/random.js"></script>
     </button>
 </div>
-</body>
  to be taken to a random page.
 <br>
 <br>

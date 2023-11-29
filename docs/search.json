@@ -123,14 +123,28 @@
     "href": "articles/enhancement.html",
     "title": "Major Enhancement: Random Button",
     "section": "",
-    "text": "Yeah yeah yeah"
+    "text": "This is an article describing the major enhancement to this website: the “random webpage” button on the home page. While debatably not a “major enhancement”, it took me forever, it uses Javascript, and it’s kinda neat, so hopefully that checks a few of the boxes."
+  },
+  {
+    "objectID": "articles/enhancement.html#the-problem",
+    "href": "articles/enhancement.html#the-problem",
+    "title": "Major Enhancement: Random Button",
+    "section": "The “Problem”",
+    "text": "The “Problem”\nDr. White asked that we make a major enhancement to our warmup website that involved either Javascript or css. I chose the former and added in some HTML to go along with it."
+  },
+  {
+    "objectID": "articles/enhancement.html#the-solution",
+    "href": "articles/enhancement.html#the-solution",
+    "title": "Major Enhancement: Random Button",
+    "section": "The Solution",
+    "text": "The Solution\nLet’s start by setting up the HTML. It is as follows:\n\n\n\nRegarding Javascript, we first need to define a function through which we can create a random process. The mdn_ web docs kindly gave the following code to find an integer from a range of numbers:\n\nfunction getRandomNum(min, max) {\n    min = Math.ceil(min);\n    max = Math.floor(max);\n    return Math.floor(Math.random() * (max - min + 1) + min);\n}\nWe first bind Math.ceil(min) to min and Math.floor(max) to max. Math.ceil and Math.floor are opposites: the former rounds the entered value up and returns the integer greater than or equal to that number, while the latter rounds the entered value down and returns the integer less than or equal to that number. So, for example, Math.floor(6.3) would return 6, while Math.ceil(6.3) would return 7.\nWhat this function does is first set the entered max and min values to their nearest integers. After that, a random value between 0 and 1, chosen via Math.random, distributes itself to (max-min+1), added to the min value, and then is rounded down to the nearest integer. This ensures that the value returned is an integer, and it is possible for both the upper and lower bounds of the range to be returned. We will use this function to randomly select one of the values in an array.\nNext, since we’re working with HTML, we should define the document selector and event listener for our random button."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Thomas’ COOLER Website",
     "section": "",
-    "text": "This is a website that I’m making for an assignment for CSC 324 at Georgetown College. Hope this is at least mildly entertaining and, God willing, neat. To the left and top, you can find links to the About page, two articles covering Eloquent Javascript problems. You can also access the 404 page by putting whatever in the URL after /personal-thomas-spurlock, if you so desire.\nYou can also click  \n\n\n    this button\n        \n    \n\n\n to be taken to a random page.\n\n\nIf you’re in the mood, you can also check out this cool book. Highly recommend."
+    "text": "This is a website that I’m making for an assignment for CSC 324 at Georgetown College. Hope this is at least mildly entertaining and, God willing, neat. To the left and top, you can find links to the About page, two articles covering Eloquent Javascript problems. You can also access the 404 page by putting whatever in the URL after /personal-thomas-spurlock, if you so desire.\nYou can also click  \n\n\n    this button\n        \n    \n\n to be taken to a random page.\n\n\nIf you’re in the mood, you can also check out this cool book. Highly recommend."
   },
   {
     "objectID": "posts (Topic 1)/index.html",
