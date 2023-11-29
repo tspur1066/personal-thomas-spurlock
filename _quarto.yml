@@ -18,6 +18,8 @@ website:
         text: Church
       - href: posts (Topic 2)/index.qmd
         text: Computer Science
+      - href: movies.qmd
+        text: Cool Movie Trailers!
 
   sidebar:
     - id: articles

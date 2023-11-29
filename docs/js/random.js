@@ -40,11 +40,14 @@ const links_1 = [
     "posts%20(Topic%201)/post2",
     "posts%20(Topic%201)/post2/stpatrick.jpg",
     "posts%20(Topic%201)/post3",
+    "posts%20(Topic%201)/post3/Athanasius.jpg",
 
     //Computer Science Blog Posts
     "posts%20(Topic%202)/",
     "posts%20(Topic%202)/post1",
+    "posts%20(Topic%202)/post1/programming.jpg",
     "posts%20(Topic%202)/post2",
+    "posts%20(Topic%202)/post2/fortran202x.png",
 
     //Articles
     "articles/main.html",
