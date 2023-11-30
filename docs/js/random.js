@@ -61,6 +61,7 @@ const links_1 = [
     "images/me(2).jpg",
     "images/lucky_find.png",
     "images/r_meme.jpg",
+    "images/confrontation.gif",
     
     //Javascript Files
     "js/looping.js",
