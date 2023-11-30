@@ -75,7 +75,9 @@ const links_1 = [
 const links_2 = [
     "https://www.google.com/search?q=why+doesn%27t+my+javascript+code+work&sca_esv=586011724&ei=_z1mZdPSIdC5qtsPxsGEYA&ved=0ahUKEwiTzpK8teeCAxXQnGoFHcYgAQwQ4dUDCBA&uact=5&oq=why+doesn%27t+my+javascript+code+work&gs_lp=Egxnd3Mtd2l6LXNlcnAiI3doeSBkb2Vzbid0IG15IGphdmFzY3JpcHQgY29kZSB3b3JrMggQIRigARjDBEjGNFCyD1iGL3ABeAGQAQCYAXugAZAGqgEDNy4yuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICBxAAGIAEGA3CAgYQABgHGB7CAgYQABgeGA3CAgsQABiABBiKBRiGA8ICBRAAGIAEwgIKECEYoAEYwwQYCuIDBBgAIEGIBgGQBgg&sclient=gws-wiz-serp",
     "https://usagif.com/gif/dancing-cat-33/",
-    "https://www.youtube.com/watch?v=8PVal8Fy7CM"
+    "https://www.youtube.com/watch?v=8PVal8Fy7CM",
+    "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "https://www.youtube.com/watch?v=b4qRp4OfUn8"
 ]
 
 // Function to open links
